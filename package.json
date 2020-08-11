@@ -1,0 +1,12 @@
+{
+  "name": "@pgyer/icons",
+  "version": "0.0.1",
+  "description": "icons for pgyer's project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://codefever.pgyer.com/PGYER/icons.git"
+  },
+  "author": "PGYER INFRA",
+  "license": "ISC"
+}

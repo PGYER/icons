@@ -7,6 +7,10 @@
     "type": "git",
     "url": "https://codefever.pgyer.com/PGYER/icons.git"
   },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/react-fontawesome": "^0.1.11"
+  },
   "author": "PGYER INFRA",
   "license": "ISC"
 }

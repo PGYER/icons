@@ -1,13 +1,13 @@
 {
   "name": "@pgyer/icons",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "icons for pgyer's project",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://codefever.pgyer.com/PGYER/icons.git"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/react-fontawesome": "^0.1.11"
   },

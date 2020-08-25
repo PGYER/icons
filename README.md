@@ -10,8 +10,8 @@
 
 ```shell
 
-    yarn add git+ssh:git@codefever.pgyer.com:PGYER/icons.git@latest
-    yarn upgrade @pgyer/icons
+yarn add git+ssh:git@codefever.pgyer.com:PGYER/icons.git@latest
+yarn upgrade @pgyer/icons
 
 ```
 
@@ -31,8 +31,8 @@
 
 ```javascript
 
-  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import { iconName } from '@pgyer/icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { iconName } from '@pgyer/icons'
 
 ```
 
@@ -42,7 +42,7 @@
 
 ```jsx
 
-  <FontAwesomeIcon icon={iconName} />
+<FontAwesomeIcon icon={iconName} />
 
 ```
 

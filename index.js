@@ -42,6 +42,8 @@ import psAlarmData from './icons/psAlarm'
 import psChartData from './icons/psChart'
 import psCloudCheckData from './icons/psCloudCheck'
 import psCloseData from './icons/psClose'
+import psInfoData from './icons/psInfo'
+import psErrorData from './icons/psError'
 
 // line frame icon
 import plRepositoryData from './icons/plRepository'
@@ -182,6 +184,8 @@ const psAlarm = warpper(...psAlarmData)
 const psChart = warpper(...psChartData)
 const psCloudCheck = warpper(...psCloudCheckData)
 const psClose = warpper(...psCloseData)
+const psInfo = warpper(...psInfoData)
+const psError = warpper(...psErrorData)
 
 // line frame icon
 const plRepository = warpper(...plRepositoryData)
@@ -278,7 +282,7 @@ export {
   psBookMarkFolder, psComment, psPause, psMore, psNewFeature, psCheckbox,
   psOverview, psContent, psBook, psMemberAlt, psBell, psAdd, psHome, psPieChart,
   psExclamationTriangle, psMeter, psCalendar, psBox, psAlarm, psChart, psCloudCheck,
-  psClose,
+  psClose, psInfo, psError,
 
   // line frame icon
   plRepository, plCodeFile, plBranch, plExpand, plFile, plTrash, plMerge,

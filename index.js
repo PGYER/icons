@@ -62,6 +62,9 @@ import plSearchData from './icons/plSearch'
 import plTagData from './icons/plTag'
 import plFilterData from './icons/plFilter'
 import plEditData from './icons/plEdit'
+import plAngleUpData from './icons/plAngleUp'
+import plAngleRightData from './icons/plAngleRight'
+import plAngleDownData from './icons/plAngleDown'
 import plAngleLeftData from './icons/plAngleLeft'
 import plSettingData from './icons/plSetting'
 import plChatData from './icons/plChat'
@@ -87,7 +90,6 @@ import plAlignLeftData from './icons/plAlignLeft'
 import plUnknownFileData from './icons/plUnknownFile'
 import plUndoData from './icons/plUndo'
 import plMemoData from './icons/plMemo'
-import plAngleDownData from './icons/plAngleDown'
 import plMemberSettingData from './icons/plMemberSetting'
 import plRepairData from './icons/plRepair'
 import plScrollData from './icons/plScroll'
@@ -200,6 +202,9 @@ const plSearch = warpper(...plSearchData)
 const plTag = warpper(...plTagData)
 const plFilter = warpper(...plFilterData)
 const plEdit = warpper(...plEditData)
+const plAngleUp = warpper(...plAngleUpData)
+const plAngleRight = warpper(...plAngleRightData)
+const plAngleDown = warpper(...plAngleDownData)
 const plAngleLeft = warpper(...plAngleLeftData)
 const plSetting = warpper(...plSettingData)
 const plChat = warpper(...plChatData)
@@ -225,7 +230,6 @@ const plAlignLeft = warpper(...plAlignLeftData)
 const plUnknownFile = warpper(...plUnknownFileData)
 const plUndo = warpper(...plUndoData)
 const plMemo = warpper(...plMemoData)
-const plAngleDown = warpper(...plAngleDownData)
 const plMemberSetting = warpper(...plMemberSettingData)
 const plRepair = warpper(...plRepairData)
 const plScroll = warpper(...plScrollData)
@@ -279,11 +283,11 @@ export {
   // line frame icon
   plRepository, plCodeFile, plBranch, plExpand, plFile, plTrash, plMerge,
   plCopy, plSafe, plImport, plHelp, plMember, plSortDesc, plCommit, plSearch,
-  plTag, plFilter, plEdit, plAngleLeft, plSetting, plChat, plBell, plFork,
-  plUpload, plUnderline, plDownload, plSource, plFullScreen, plClose, plShare,
-  plFolder, plStrike, plBold, plCooperate, plImage, plFont, plConfirm,
-  plAlignCenter, plAlignRight, plAlignLeft, plUnknownFile, plUndo, plMemo,
-  plAngleDown, plMemberSetting, plRepair, plScroll, plMemberAlt, plItalic,
+  plTag, plFilter, plEdit, plAngleUp, plAngleRight, plAngleDown, plAngleLeft,
+  plSetting, plChat, plBell, plFork, plUpload, plUnderline, plDownload, plSource,
+  plFullScreen, plClose, plShare, plFolder, plStrike, plBold, plCooperate, plImage,
+  plFont, plConfirm, plAlignCenter, plAlignRight, plAlignLeft, plUnknownFile,
+  plUndo, plMemo, plMemberSetting, plRepair, plScroll, plMemberAlt, plItalic,
   plList, plCalendar, plClock, plUpdateLog, plOrderList, plStar, plCheckbox,
   plAdd, plAddAlt, plClockRing, plBookMarkFolder, plLocalization, plBook,
   plSpeaker, plDraft, plTable, plComment, plMemberInfo, plExit, plCheck,

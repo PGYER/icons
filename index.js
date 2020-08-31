@@ -131,6 +131,9 @@ import plHeader2Data from './icons/plHeader2'
 import plHeader3Data from './icons/plHeader3'
 import plQuoteData from './icons/plQuote'
 import plUnlinkData from './icons/plUnlink'
+import plZoomInData from './icons/plZoomIn'
+import plZoomOutData from './icons/plZoomOut'
+import plCloseCircleData from './icons/plCloseCircle'
 
 const warpper = function (name, size, path0, path1) {
   return {
@@ -273,6 +276,9 @@ const plHeader2 = warpper(...plHeader2Data)
 const plHeader3 = warpper(...plHeader3Data)
 const plQuote = warpper(...plQuoteData)
 const plUnlink = warpper(...plUnlinkData)
+const plZoomIn = warpper(...plZoomInData)
+const plZoomOut = warpper(...plZoomOutData)
+const plCloseCircle = warpper(...plCloseCircleData)
 
 export {
   // solid icon
@@ -296,5 +302,6 @@ export {
   plAdd, plAddAlt, plClockRing, plBookMarkFolder, plLocalization, plBook,
   plSpeaker, plDraft, plTable, plComment, plMemberInfo, plExit, plCheck,
   plPicker, plLink, plAttachment, plSettingAlt, plContent, plKey, plMenuCollapse,
-  plCloudUp, plFontColor, plHeader1, plHeader2, plHeader3, plQuote, plUnlink
+  plCloudUp, plFontColor, plHeader1, plHeader2, plHeader3, plQuote, plUnlink,
+  plZoomIn, plZoomOut, plCloseCircle
 }

@@ -134,6 +134,7 @@ import plUnlinkData from './icons/plUnlink'
 import plZoomInData from './icons/plZoomIn'
 import plZoomOutData from './icons/plZoomOut'
 import plCloseCircleData from './icons/plCloseCircle'
+import plSigmaData from './icons/plSigma'
 
 const warpper = function (name, size, path0, path1) {
   return {
@@ -279,6 +280,7 @@ const plUnlink = warpper(...plUnlinkData)
 const plZoomIn = warpper(...plZoomInData)
 const plZoomOut = warpper(...plZoomOutData)
 const plCloseCircle = warpper(...plCloseCircleData)
+const plSigma = warpper(...plSigmaData)
 
 export {
   // solid icon
@@ -303,5 +305,5 @@ export {
   plSpeaker, plDraft, plTable, plComment, plMemberInfo, plExit, plCheck,
   plPicker, plLink, plAttachment, plSettingAlt, plContent, plKey, plMenuCollapse,
   plCloudUp, plFontColor, plHeader1, plHeader2, plHeader3, plQuote, plUnlink,
-  plZoomIn, plZoomOut, plCloseCircle
+  plZoomIn, plZoomOut, plCloseCircle, plSigma
 }

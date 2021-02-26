@@ -136,6 +136,12 @@ import plZoomInData from './icons/plZoomIn'
 import plZoomOutData from './icons/plZoomOut'
 import plCloseCircleData from './icons/plCloseCircle'
 import plSigmaData from './icons/plSigma'
+import plWebData from './icons/plWeb'
+import plMiniProgramData from './icons/plMiniProgram'
+import plAndroidData from './icons/plAndroid'
+import plIOSData from './icons/plIOS'
+import plPHPData from './icons/plPHP'
+import plCocosData from './icons/plCocos'
 
 const warpper = function (name, size, path0, path1) {
   return {
@@ -283,6 +289,12 @@ const plZoomIn = warpper(...plZoomInData)
 const plZoomOut = warpper(...plZoomOutData)
 const plCloseCircle = warpper(...plCloseCircleData)
 const plSigma = warpper(...plSigmaData)
+const plWeb = warpper(...plWebData)
+const plMiniProgram = warpper(...plMiniProgramData)
+const plAndroid = warpper(...plAndroidData)
+const plIOS = warpper(...plIOSData)
+const plPHP = warpper(...plPHPData)
+const plCocos = warpper(...plCocosData)
 
 export {
   // solid icon
@@ -307,5 +319,6 @@ export {
   plSpeaker, plDraft, plTable, plComment, plMemberInfo, plExit, plCheck,
   plPicker, plLink, plAttachment, plSettingAlt, plContent, plKey, plMenuCollapse,
   plCloudUp, plFontColor, plHeader1, plHeader2, plHeader3, plQuote, plUnlink,
-  plZoomIn, plZoomOut, plCloseCircle, plSigma
+  plZoomIn, plZoomOut, plCloseCircle, plSigma, plWeb, plMiniProgram, plAndroid,
+  plIOS, plPHP, plCocos
 }

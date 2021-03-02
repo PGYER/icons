@@ -142,6 +142,7 @@ import plAndroidData from './icons/plAndroid'
 import plIOSData from './icons/plIOS'
 import plPHPData from './icons/plPHP'
 import plCocosData from './icons/plCocos'
+import plAllData from './icons/plAll'
 
 const warpper = function (name, size, path0, path1) {
   return {
@@ -295,6 +296,7 @@ const plAndroid = warpper(...plAndroidData)
 const plIOS = warpper(...plIOSData)
 const plPHP = warpper(...plPHPData)
 const plCocos = warpper(...plCocosData)
+const plAll = warpper(...plAllData)
 
 export {
   // solid icon
@@ -320,5 +322,5 @@ export {
   plPicker, plLink, plAttachment, plSettingAlt, plContent, plKey, plMenuCollapse,
   plCloudUp, plFontColor, plHeader1, plHeader2, plHeader3, plQuote, plUnlink,
   plZoomIn, plZoomOut, plCloseCircle, plSigma, plWeb, plMiniProgram, plAndroid,
-  plIOS, plPHP, plCocos
+  plIOS, plPHP, plCocos, plAll
 }

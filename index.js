@@ -7,6 +7,7 @@ import psRepositoryData from './icons/psRepository'
 import psRepositoryGroupData from './icons/psRepositoryGroup'
 import psMembersData from './icons/psMembers'
 import psFileData from './icons/psFile'
+import psFeeData from './icons/psFee'
 import psLogData from './icons/psLog'
 import psTagData from './icons/psTag'
 import psSettingData from './icons/psSetting'
@@ -20,6 +21,9 @@ import psStarData from './icons/psStar'
 import psClockRingData from './icons/psClockRing'
 import psPlayData from './icons/psPlay'
 import psCreditCardsData from './icons/psCreditCards'
+import psWalletData from './icons/psWallet'
+import psConsumeData from './icons/psConsume'
+import psCouponData from './icons/psCoupon'
 import psBookMarkFolderData from './icons/psBookMarkFolder'
 import psCommentData from './icons/psComment'
 import psPauseData from './icons/psPause'
@@ -161,6 +165,7 @@ const psRepository = warpper(...psRepositoryData)
 const psRepositoryGroup = warpper(...psRepositoryGroupData)
 const psMembers = warpper(...psMembersData)
 const psFile = warpper(...psFileData)
+const psFee = warpper(...psFeeData)
 const psLog = warpper(...psLogData)
 const psTag = warpper(...psTagData)
 const psSetting = warpper(...psSettingData)
@@ -174,6 +179,9 @@ const psStar = warpper(...psStarData)
 const psClockRing = warpper(...psClockRingData)
 const psPlay = warpper(...psPlayData)
 const psCreditCards = warpper(...psCreditCardsData)
+const psWallet = warpper(...psWalletData)
+const psConsume = warpper(...psConsumeData)
+const psCoupon = warpper(...psCouponData)
 const psBookMarkFolder = warpper(...psBookMarkFolderData)
 const psComment = warpper(...psCommentData)
 const psPause = warpper(...psPauseData)
@@ -301,12 +309,12 @@ const plAll = warpper(...plAllData)
 export {
   // solid icon
   psCaretDown, psFolder, psAddAlt, psConfirm, psRepository, psRepositoryGroup,
-  psMembers, psFile, psLog, psTag, psSetting, psMerge, psCommit, psBranch,
-  psClock, psTrash, psTicket, psStar, psClockRing, psPlay, psCreditCards,
-  psBookMarkFolder, psComment, psPause, psMore, psNewFeature, psCheckbox,
-  psOverview, psContent, psBook, psMemberAlt, psBell, psAdd, psHome, psPieChart,
-  psExclamationTriangle, psMeter, psCalendar, psBox, psAlarm, psChart, psCloudCheck,
-  psClose, psInfo, psError, psChip,
+  psMembers, psFile, psFee, psLog, psTag, psSetting, psMerge, psCommit, psBranch,
+  psClock, psTrash, psTicket, psStar, psClockRing, psPlay, psCreditCards, psWallet,
+  psConsume, psCoupon, psBookMarkFolder, psComment, psPause, psMore, psNewFeature,
+  psCheckbox, psOverview, psContent, psBook, psMemberAlt, psBell, psAdd, psHome,
+  psPieChart, psExclamationTriangle, psMeter, psCalendar, psBox, psAlarm, psChart,
+  psCloudCheck, psClose, psInfo, psError, psChip,
 
   // line frame icon
   plRepository, plCodeFile, plBranch, plExpand, plFile, plTrash, plMerge,

@@ -49,6 +49,8 @@ import psCloseData from './icons/psClose'
 import psInfoData from './icons/psInfo'
 import psErrorData from './icons/psError'
 import psChipData from './icons/psChip'
+import psShoppingCartData from './icons/psShoppingCart'
+import psPurchasedData from './icons/psPurchased'
 
 // line frame icon
 import plRepositoryData from './icons/plRepository'
@@ -207,6 +209,8 @@ const psClose = warpper(...psCloseData)
 const psInfo = warpper(...psInfoData)
 const psError = warpper(...psErrorData)
 const psChip = warpper(...psChipData)
+const psShoppingCart = warpper(...psShoppingCartData)
+const psPurchased = warpper(...psPurchasedData)
 
 // line frame icon
 const plRepository = warpper(...plRepositoryData)
@@ -314,7 +318,7 @@ export {
   psConsume, psCoupon, psBookMarkFolder, psComment, psPause, psMore, psNewFeature,
   psCheckbox, psOverview, psContent, psBook, psMemberAlt, psBell, psAdd, psHome,
   psPieChart, psExclamationTriangle, psMeter, psCalendar, psBox, psAlarm, psChart,
-  psCloudCheck, psClose, psInfo, psError, psChip,
+  psCloudCheck, psClose, psInfo, psError, psChip, psShoppingCart, psPurchased,
 
   // line frame icon
   plRepository, plCodeFile, plBranch, plExpand, plFile, plTrash, plMerge,

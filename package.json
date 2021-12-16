@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://codefever.pgyer.com/PGYER/icons.git"
+    "url": "https://github.com/PGYER/icons.git"
   },
   "peerDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",

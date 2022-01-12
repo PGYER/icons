@@ -60,6 +60,7 @@ import plExpandData from './icons/plExpand'
 import plFileData from './icons/plFile'
 import plTrashData from './icons/plTrash'
 import plMergeData from './icons/plMerge'
+import plMergedData from './icons/plMerged'
 import plCopyData from './icons/plCopy'
 import plSafeData from './icons/plSafe'
 import plImportData from './icons/plImport'
@@ -150,6 +151,7 @@ import plPHPData from './icons/plPHP'
 import plCocosData from './icons/plCocos'
 import plAllData from './icons/plAll'
 import plRobotData from './icons/plRobot'
+import plForbidData from './icons/plForbid'
 
 const warpper = function (name, size, path0, path1) {
   return {
@@ -221,6 +223,7 @@ const plExpand = warpper(...plExpandData)
 const plFile = warpper(...plFileData)
 const plTrash = warpper(...plTrashData)
 const plMerge = warpper(...plMergeData)
+const plMerged = warpper(...plMergedData)
 const plCopy = warpper(...plCopyData)
 const plSafe = warpper(...plSafeData)
 const plImport = warpper(...plImportData)
@@ -311,6 +314,7 @@ const plPHP = warpper(...plPHPData)
 const plCocos = warpper(...plCocosData)
 const plAll = warpper(...plAllData)
 const plRobot = warpper(...plRobotData)
+const plForbid = warpper(...plForbidData)
 
 export {
   // solid icon
@@ -323,7 +327,7 @@ export {
   psCloudCheck, psClose, psInfo, psError, psChip, psShoppingCart, psPurchased,
 
   // line frame icon
-  plRepository, plCodeFile, plBranch, plExpand, plFile, plTrash, plMerge,
+  plRepository, plCodeFile, plBranch, plExpand, plFile, plTrash, plMerge, plMerged,
   plCopy, plSafe, plImport, plHelp, plMember, plSortDesc, plCommit, plSearch,
   plTag, plFilter, plEdit, plAngleUp, plAngleRight, plAngleDown, plAngleLeft,
   plSetting, plChat, plBell, plFork, plUpload, plUnderline, plDownload, plSource,
@@ -336,5 +340,5 @@ export {
   plPicker, plLink, plAttachment, plSettingAlt, plContent, plKey, plMenuCollapse,
   plCloudUp, plFontColor, plHeader1, plHeader2, plHeader3, plQuote, plUnlink,
   plZoomIn, plZoomOut, plCloseCircle, plSigma, plWeb, plMiniProgram, plAndroid,
-  plIOS, plPHP, plCocos, plAll, plRobot
+  plIOS, plPHP, plCocos, plAll, plRobot, plForbid
 }

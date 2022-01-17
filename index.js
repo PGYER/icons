@@ -64,6 +64,7 @@ import plTrashData from './icons/plTrash'
 import plMergeData from './icons/plMerge'
 import plMergedData from './icons/plMerged'
 import plCopyData from './icons/plCopy'
+import plRepeatData from './icons/plRepeat'
 import plSafeData from './icons/plSafe'
 import plImportData from './icons/plImport'
 import plHelpData from './icons/plHelp'
@@ -229,6 +230,7 @@ const plTrash = warpper(...plTrashData)
 const plMerge = warpper(...plMergeData)
 const plMerged = warpper(...plMergedData)
 const plCopy = warpper(...plCopyData)
+const plRepeat = warpper(...plRepeatData)
 const plSafe = warpper(...plSafeData)
 const plImport = warpper(...plImportData)
 const plHelp = warpper(...plHelpData)
@@ -345,5 +347,5 @@ export {
   plPicker, plLink, plAttachment, plSettingAlt, plContent, plKey, plMenuCollapse,
   plCloudUp, plFontColor, plHeader1, plHeader2, plHeader3, plQuote, plUnlink,
   plZoomIn, plZoomOut, plCloseCircle, plSigma, plWeb, plMiniProgram, plAndroid,
-  plIOS, plPHP, plCocos, plAll, plRobot, plForbid
+  plIOS, plPHP, plCocos, plAll, plRobot, plForbid, plRepeat
 }

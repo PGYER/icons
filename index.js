@@ -1,12 +1,16 @@
 // solid icon
 import psCaretDownData from './icons/psCaretDown'
 import psFolderData from './icons/psFolder'
+import psFolderGroupData from './icons/psFolderGroup'
+import psFolderOpenData from './icons/psFolderOpen'
+import psGithubData from './icons/psGithub'
 import psAddAltData from './icons/psAddAlt'
 import psConfirmData from './icons/psConfirm'
 import psRepositoryData from './icons/psRepository'
 import psRepositoryGroupData from './icons/psRepositoryGroup'
 import psMembersData from './icons/psMembers'
 import psFileData from './icons/psFile'
+import psFirefoxData from './icons/psFirefox'
 import psFeeData from './icons/psFee'
 import psLogData from './icons/psLog'
 import psTagData from './icons/psTag'
@@ -17,9 +21,11 @@ import psBranchData from './icons/psBranch'
 import psClockData from './icons/psClock'
 import psTrashData from './icons/psTrash'
 import psTicketData from './icons/psTicket'
+import psTracupbotData from './icons/psTracupbot'
 import psStarData from './icons/psStar'
 import psClockRingData from './icons/psClockRing'
 import psPlayData from './icons/psPlay'
+import psPriorityData from './icons/psPriority'
 import psCreditCardsData from './icons/psCreditCards'
 import psWalletData from './icons/psWallet'
 import psConsumeData from './icons/psConsume'
@@ -35,20 +41,25 @@ import psContentData from './icons/psContent'
 import psBookData from './icons/psBook'
 import psMemberAltData from './icons/psMemberAlt'
 import psBellData from './icons/psBell'
+import psBitbucketData from './icons/psBitbucket'
 import psAddData from './icons/psAdd'
 import psHomeData from './icons/psHome'
 import psPieChartData from './icons/psPieChart'
 import psExclamationTriangleData from './icons/psExclamationTriangle'
 import psMeterData from './icons/psMeter'
+import psMiniProgramData from './icons/psMiniProgram'
 import psCalendarData from './icons/psCalendar'
 import psBoxData from './icons/psBox'
 import psAlarmData from './icons/psAlarm'
 import psChartData from './icons/psChart'
 import psCloudCheckData from './icons/psCloudCheck'
+import psCodefeverData from './icons/psCodefever'
+import psCodingData from './icons/psCoding'
 import psCloseData from './icons/psClose'
 import psInfoData from './icons/psInfo'
 import psErrorData from './icons/psError'
 import psChipData from './icons/psChip'
+import psChromeData from './icons/psChrome'
 import psShoppingCartData from './icons/psShoppingCart'
 import psPurchasedData from './icons/psPurchased'
 import psEmailData from './icons/psEmail'
@@ -59,39 +70,63 @@ import plRepositoryData from './icons/plRepository'
 import plCodeFileData from './icons/plCodeFile'
 import plBranchData from './icons/plBranch'
 import plExpandData from './icons/plExpand'
+import plEyeData from './icons/plEye'
+import plFaceData from './icons/plFace'
 import plFileData from './icons/plFile'
+import plFileCheckData from './icons/plFileCheck'
 import plTrashData from './icons/plTrash'
+import plTypeData from './icons/plType'
 import plMergeData from './icons/plMerge'
 import plMergedData from './icons/plMerged'
+import plMinimizeData from './icons/plMinimize'
 import plCopyData from './icons/plCopy'
+import plDashboardData from './icons/plDashboard'
+import plDomainData from './icons/plDomain'
 import plRepeatData from './icons/plRepeat'
+import plRepoData from './icons/plRepo'
 import plSafeData from './icons/plSafe'
 import plImportData from './icons/plImport'
 import plHelpData from './icons/plHelp'
 import plMemberData from './icons/plMember'
+import plMemberAddData from './icons/plMemberAdd'
 import plSortDescData from './icons/plSortDesc'
 import plCommitData from './icons/plCommit'
 import plSearchData from './icons/plSearch'
 import plTagData from './icons/plTag'
+import plTicketData from './icons/plTicket'
+import plTradeData from './icons/plTrade'
 import plFilterData from './icons/plFilter'
+import plFolderArchiveData from './icons/plFolderArchive'
 import plEditData from './icons/plEdit'
 import plAngleUpData from './icons/plAngleUp'
+import plAtData from './icons/plAt'
 import plAngleRightData from './icons/plAngleRight'
+import plAngleRightSquareData from './icons/plAngleRightSquare'
 import plAngleDownData from './icons/plAngleDown'
 import plAngleLeftData from './icons/plAngleLeft'
 import plSettingData from './icons/plSetting'
 import plChatData from './icons/plChat'
+import plChatCircleData from './icons/plChatCircle'
 import plBellData from './icons/plBell'
+import plBellSmallData from './icons/plBellSmall'
 import plForkData from './icons/plFork'
 import plUploadData from './icons/plUpload'
+import plUploadsData from './icons/plUploads'
+import plVersionData from './icons/plVersion'
+import plViewData from './icons/plView'
+import plWarningData from './icons/plWarning'
 import plUnderlineData from './icons/plUnderline'
 import plDownloadData from './icons/plDownload'
 import plSourceData from './icons/plSource'
 import plFullScreenData from './icons/plFullScreen'
+import plGanttData from './icons/plGantt'
 import plCloseData from './icons/plClose'
 import plShareData from './icons/plShare'
 import plFolderData from './icons/plFolder'
+import plFolderAddData from './icons/plFolderAdd'
+import plFolderRemoveData from './icons/plFolderRemove'
 import plStrikeData from './icons/plStrike'
+import plSubtaskData from './icons/plSubtask'
 import plBoldData from './icons/plBold'
 import plCooperateData from './icons/plCooperate'
 import plImageData from './icons/plImage'
@@ -104,16 +139,26 @@ import plUnknownFileData from './icons/plUnknownFile'
 import plUndoData from './icons/plUndo'
 import plMemoData from './icons/plMemo'
 import plMemberSettingData from './icons/plMemberSetting'
+import plMemberSmallData from './icons/plMemberSmall'
 import plRepairData from './icons/plRepair'
 import plScrollData from './icons/plScroll'
 import plMemberAltData from './icons/plMemberAlt'
+import plMemberAssigneeData from './icons/plMemberAssignee'
+import plMemberFollowData from './icons/plMemberFollow'
 import plItalicData from './icons/plItalic'
 import plListData from './icons/plList'
+import plListSquareData from './icons/plListSquare'
+import plListViewData from './icons/plListView'
 import plCalendarData from './icons/plCalendar'
+import plCertificateData from './icons/plCertificate'
 import plClockData from './icons/plClock'
 import plUpdateLogData from './icons/plUpdateLog'
 import plOrderListData from './icons/plOrderList'
+import plOverviewData from './icons/plOverview'
+import plPartakeData from './icons/plPartake'
+import plPencilData from './icons/plPencil'
 import plStarData from './icons/plStar'
+import plStatusData from './icons/plStatus'
 import plCheckboxData from './icons/plCheckbox'
 import plAddData from './icons/plAdd'
 import plAddAltData from './icons/plAddAlt'
@@ -123,12 +168,17 @@ import plLocalizationData from './icons/plLocalization'
 import plBookData from './icons/plBook'
 import plSpeakerData from './icons/plSpeaker'
 import plDraftData from './icons/plDraft'
+import plDragData from './icons/plDrag'
 import plTableData from './icons/plTable'
 import plCommentData from './icons/plComment'
 import plMemberInfoData from './icons/plMemberInfo'
+import plMemberRoleData from './icons/plMemberRole'
 import plExitData from './icons/plExit'
 import plCheckData from './icons/plCheck'
 import plPickerData from './icons/plPicker'
+import plPositionData from './icons/plPosition'
+import plPriorityData from './icons/plPriority'
+import plPrivacyData from './icons/plPrivacy'
 import plLinkData from './icons/plLink'
 import plAttachmentData from './icons/plAttachment'
 import plSettingAltData from './icons/plSettingAlt'
@@ -141,13 +191,22 @@ import plHeader1Data from './icons/plHeader1'
 import plHeader2Data from './icons/plHeader2'
 import plHeader3Data from './icons/plHeader3'
 import plQuoteData from './icons/plQuote'
+import plReadedData from './icons/plReaded'
+import plReadedSquareData from './icons/plReadedSquare'
 import plUnlinkData from './icons/plUnlink'
 import plZoomInData from './icons/plZoomIn'
 import plZoomOutData from './icons/plZoomOut'
 import plCloseCircleData from './icons/plCloseCircle'
 import plSigmaData from './icons/plSigma'
 import plWebData from './icons/plWeb'
+import plWebhookData from './icons/plWebhook'
+import plWorkspaceData from './icons/plWorkspace'
 import plMiniProgramData from './icons/plMiniProgram'
+import plModelData from './icons/plModel'
+import plModuleData from './icons/plModule'
+import plMoveInData from './icons/plMoveIn'
+import plMoveOutData from './icons/plMoveOut'
+import plOrderData from './icons/plOrder'
 import plAndroidData from './icons/plAndroid'
 import plIOSData from './icons/plIOS'
 import plPHPData from './icons/plPHP'
@@ -167,12 +226,16 @@ const warpper = function (name, size, path0, path1) {
 // solid icon
 const psCaretDown = warpper(...psCaretDownData)
 const psFolder = warpper(...psFolderData)
+const psFolderGroup = warpper(...psFolderGroupData)
+const psFolderOpen = warpper(...psFolderOpenData)
+const psGithub = warpper(...psGithubData)
 const psAddAlt = warpper(...psAddAltData)
 const psConfirm = warpper(...psConfirmData)
 const psRepository = warpper(...psRepositoryData)
 const psRepositoryGroup = warpper(...psRepositoryGroupData)
 const psMembers = warpper(...psMembersData)
 const psFile = warpper(...psFileData)
+const psFirefox = warpper(...psFirefoxData)
 const psFee = warpper(...psFeeData)
 const psLog = warpper(...psLogData)
 const psTag = warpper(...psTagData)
@@ -183,9 +246,11 @@ const psBranch = warpper(...psBranchData)
 const psClock = warpper(...psClockData)
 const psTrash = warpper(...psTrashData)
 const psTicket = warpper(...psTicketData)
+const psTracupbot = warpper(...psTracupbotData)
 const psStar = warpper(...psStarData)
 const psClockRing = warpper(...psClockRingData)
 const psPlay = warpper(...psPlayData)
+const psPriority = warpper(...psPriorityData)
 const psCreditCards = warpper(...psCreditCardsData)
 const psWallet = warpper(...psWalletData)
 const psConsume = warpper(...psConsumeData)
@@ -201,20 +266,25 @@ const psContent = warpper(...psContentData)
 const psBook = warpper(...psBookData)
 const psMemberAlt = warpper(...psMemberAltData)
 const psBell = warpper(...psBellData)
+const psBitbucket = warpper(...psBitbucketData)
 const psAdd = warpper(...psAddData)
 const psHome = warpper(...psHomeData)
 const psPieChart = warpper(...psPieChartData)
 const psExclamationTriangle = warpper(...psExclamationTriangleData)
 const psMeter = warpper(...psMeterData)
+const psMiniProgram = warpper(...psMiniProgramData)
 const psCalendar = warpper(...psCalendarData)
 const psBox = warpper(...psBoxData)
 const psAlarm = warpper(...psAlarmData)
 const psChart = warpper(...psChartData)
 const psCloudCheck = warpper(...psCloudCheckData)
+const psCodefever = warpper(...psCodefeverData)
+const psCoding = warpper(...psCodingData)
 const psClose = warpper(...psCloseData)
 const psInfo = warpper(...psInfoData)
 const psError = warpper(...psErrorData)
 const psChip = warpper(...psChipData)
+const psChrome = warpper(...psChromeData)
 const psShoppingCart = warpper(...psShoppingCartData)
 const psPurchased = warpper(...psPurchasedData)
 const psEmail = warpper(...psEmailData)
@@ -225,39 +295,63 @@ const plRepository = warpper(...plRepositoryData)
 const plCodeFile = warpper(...plCodeFileData)
 const plBranch = warpper(...plBranchData)
 const plExpand = warpper(...plExpandData)
+const plEye = warpper(...plEyeData)
+const plFace = warpper(...plFaceData)
 const plFile = warpper(...plFileData)
+const plFileCheck = warpper(...plFileCheckData)
 const plTrash = warpper(...plTrashData)
+const plType = warpper(...plTypeData)
 const plMerge = warpper(...plMergeData)
 const plMerged = warpper(...plMergedData)
+const plMinimize = warpper(...plMinimizeData)
 const plCopy = warpper(...plCopyData)
+const plDashboard = warpper(...plDashboardData)
+const plDomain = warpper(...plDomainData)
 const plRepeat = warpper(...plRepeatData)
+const plRepo = warpper(...plRepoData)
 const plSafe = warpper(...plSafeData)
 const plImport = warpper(...plImportData)
 const plHelp = warpper(...plHelpData)
 const plMember = warpper(...plMemberData)
+const plMemberAdd = warpper(...plMemberAddData)
 const plSortDesc = warpper(...plSortDescData)
 const plCommit = warpper(...plCommitData)
 const plSearch = warpper(...plSearchData)
 const plTag = warpper(...plTagData)
+const plTicket = warpper(...plTicketData)
+const plTrade = warpper(...plTradeData)
 const plFilter = warpper(...plFilterData)
+const plFolderArchive = warpper(...plFolderArchiveData)
 const plEdit = warpper(...plEditData)
 const plAngleUp = warpper(...plAngleUpData)
+const plAt = warpper(...plAtData)
 const plAngleRight = warpper(...plAngleRightData)
+const plAngleRightSquare = warpper(...plAngleRightSquareData)
 const plAngleDown = warpper(...plAngleDownData)
 const plAngleLeft = warpper(...plAngleLeftData)
 const plSetting = warpper(...plSettingData)
 const plChat = warpper(...plChatData)
+const plChatCircle = warpper(...plChatCircleData)
 const plBell = warpper(...plBellData)
+const plBellSmall = warpper(...plBellSmallData)
 const plFork = warpper(...plForkData)
 const plUpload = warpper(...plUploadData)
+const plUploads = warpper(...plUploadsData)
+const plVersion = warpper(...plVersionData)
+const plView = warpper(...plViewData)
+const plWarning = warpper(...plWarningData)
 const plUnderline = warpper(...plUnderlineData)
 const plDownload = warpper(...plDownloadData)
 const plSource = warpper(...plSourceData)
 const plFullScreen = warpper(...plFullScreenData)
+const plGantt = warpper(...plGanttData)
 const plClose = warpper(...plCloseData)
 const plShare = warpper(...plShareData)
 const plFolder = warpper(...plFolderData)
+const plFolderAdd = warpper(...plFolderAddData)
+const plFolderRemove = warpper(...plFolderRemoveData)
 const plStrike = warpper(...plStrikeData)
+const plSubtask = warpper(...plSubtaskData)
 const plBold = warpper(...plBoldData)
 const plCooperate = warpper(...plCooperateData)
 const plImage = warpper(...plImageData)
@@ -270,16 +364,26 @@ const plUnknownFile = warpper(...plUnknownFileData)
 const plUndo = warpper(...plUndoData)
 const plMemo = warpper(...plMemoData)
 const plMemberSetting = warpper(...plMemberSettingData)
+const plMemberSmall = warpper(...plMemberSmallData)
 const plRepair = warpper(...plRepairData)
 const plScroll = warpper(...plScrollData)
 const plMemberAlt = warpper(...plMemberAltData)
+const plMemberAssignee = warpper(...plMemberAssigneeData)
+const plMemberFollow = warpper(...plMemberFollowData)
 const plItalic = warpper(...plItalicData)
 const plList = warpper(...plListData)
+const plListSquare = warpper(...plListSquareData)
+const plListView = warpper(...plListViewData)
 const plCalendar = warpper(...plCalendarData)
+const plCertificate = warpper(...plCertificateData)
 const plClock = warpper(...plClockData)
 const plUpdateLog = warpper(...plUpdateLogData)
 const plOrderList = warpper(...plOrderListData)
+const plOverview = warpper(...plOverviewData)
+const plPartake = warpper(...plPartakeData)
+const plPencil = warpper(...plPencilData)
 const plStar = warpper(...plStarData)
+const plStatus = warpper(...plStatusData)
 const plCheckbox = warpper(...plCheckboxData)
 const plAdd = warpper(...plAddData)
 const plAddAlt = warpper(...plAddAltData)
@@ -289,12 +393,17 @@ const plLocalization = warpper(...plLocalizationData)
 const plBook = warpper(...plBookData)
 const plSpeaker = warpper(...plSpeakerData)
 const plDraft = warpper(...plDraftData)
+const plDrag = warpper(...plDragData)
 const plTable = warpper(...plTableData)
 const plComment = warpper(...plCommentData)
 const plMemberInfo = warpper(...plMemberInfoData)
+const plMemberRole = warpper(...plMemberRoleData)
 const plExit = warpper(...plExitData)
 const plCheck = warpper(...plCheckData)
 const plPicker = warpper(...plPickerData)
+const plPosition = warpper(...plPositionData)
+const plPriority = warpper(...plPriorityData)
+const plPrivacy = warpper(...plPrivacyData)
 const plLink = warpper(...plLinkData)
 const plAttachment = warpper(...plAttachmentData)
 const plSettingAlt = warpper(...plSettingAltData)
@@ -307,13 +416,22 @@ const plHeader1 = warpper(...plHeader1Data)
 const plHeader2 = warpper(...plHeader2Data)
 const plHeader3 = warpper(...plHeader3Data)
 const plQuote = warpper(...plQuoteData)
+const plReaded = warpper(...plReadedData)
+const plReadedSquare = warpper(...plReadedSquareData)
 const plUnlink = warpper(...plUnlinkData)
 const plZoomIn = warpper(...plZoomInData)
 const plZoomOut = warpper(...plZoomOutData)
 const plCloseCircle = warpper(...plCloseCircleData)
 const plSigma = warpper(...plSigmaData)
 const plWeb = warpper(...plWebData)
+const plWebhook = warpper(...plWebhookData)
+const plWorkspace = warpper(...plWorkspaceData)
 const plMiniProgram = warpper(...plMiniProgramData)
+const plModel = warpper(...plModelData)
+const plModule = warpper(...plModuleData)
+const plMoveIn = warpper(...plMoveInData)
+const plMoveOut = warpper(...plMoveOutData)
+const plOrder = warpper(...plOrderData)
 const plAndroid = warpper(...plAndroidData)
 const plIOS = warpper(...plIOSData)
 const plPHP = warpper(...plPHPData)
@@ -324,28 +442,31 @@ const plForbid = warpper(...plForbidData)
 
 export {
   // solid icon
-  psCaretDown, psFolder, psAddAlt, psConfirm, psRepository, psRepositoryGroup,
-  psMembers, psFile, psFee, psLog, psTag, psSetting, psMerge, psCommit, psBranch,
-  psClock, psTrash, psTicket, psStar, psClockRing, psPlay, psCreditCards, psWallet,
-  psConsume, psCoupon, psBookMarkFolder, psComment, psPause, psMore, psNewFeature,
-  psCheckbox, psOverview, psContent, psBook, psMemberAlt, psBell, psAdd, psHome,
-  psPieChart, psExclamationTriangle, psMeter, psCalendar, psBox, psAlarm, psChart,
-  psCloudCheck, psClose, psInfo, psError, psChip, psShoppingCart, psPurchased,
-  psEmail, psKey,
+  psMemberAlt, psMembers,
+  psFile, psFee, psLog, psPurchased, psBook,
+  psFolder, psFolderOpen, psFolderGroup, psBookMarkFolder,
+  psAddAlt, psAdd, psConfirm, psCheckbox, psCloudCheck, psClose, psError, psInfo, psExclamationTriangle, psAlarm, psBell, psNewFeature, psCalendar, psClock, psClockRing,
+  psTicket, psCreditCards, psWallet, psConsume, psCoupon, psChip, psShoppingCart,
+  psRepository, psRepositoryGroup, psOverview, psContent, psBox, psEmail,
+  psChart, psPieChart, psMeter, psStar, psPriority, psPlay, psPause,
+  psHome, psCaretDown, psSetting, psTrash, psMore,
+  psTag, psMerge, psCommit, psBranch, psComment, psKey,
+  psMiniProgram, psCodefever, psChrome, psGithub, psFirefox, psTracupbot, psCoding, psBitbucket,
 
   // line frame icon
-  plRepository, plCodeFile, plBranch, plExpand, plFile, plTrash, plMerge, plMerged,
-  plCopy, plSafe, plImport, plHelp, plMember, plSortDesc, plCommit, plSearch,
-  plTag, plFilter, plEdit, plAngleUp, plAngleRight, plAngleDown, plAngleLeft,
-  plSetting, plChat, plBell, plFork, plUpload, plUnderline, plDownload, plSource,
-  plFullScreen, plClose, plShare, plFolder, plStrike, plBold, plCooperate, plImage,
-  plFont, plConfirm, plAlignCenter, plAlignRight, plAlignLeft, plUnknownFile,
-  plUndo, plMemo, plMemberSetting, plRepair, plScroll, plMemberAlt, plItalic,
-  plList, plCalendar, plClock, plUpdateLog, plOrderList, plStar, plCheckbox,
-  plAdd, plAddAlt, plClockRing, plBookMarkFolder, plLocalization, plBook,
-  plSpeaker, plDraft, plTable, plComment, plMemberInfo, plExit, plCheck,
-  plPicker, plLink, plAttachment, plSettingAlt, plContent, plKey, plMenuCollapse,
-  plCloudUp, plFontColor, plHeader1, plHeader2, plHeader3, plQuote, plUnlink,
-  plZoomIn, plZoomOut, plCloseCircle, plSigma, plWeb, plMiniProgram, plAndroid,
-  plIOS, plPHP, plCocos, plAll, plRobot, plForbid, plRepeat
+  plMemberSmall, plMemberAlt, plMember, plMemberAdd, plMemberAssignee, plMemberFollow, plMemberInfo, plMemberRole, plMemberSetting,
+  plFile, plFileCheck, plCodeFile, plUnknownFile, plOrder, plUpload, plBook,
+  plFolder, plFolderAdd, plFolderRemove, plBookMarkFolder, plFolderArchive,
+  plAdd, plAddAlt, plRepeat, plZoomIn, plZoomOut, plCheck, plConfirm, plCheckbox, plSafe, plMerged, plClose, plCloseCircle, plHelp, plWarning, plForbid,
+  plAngleUp, plAngleRight, plAngleRightSquare, plAngleDown, plAngleLeft,
+  plList, plOrderList, plListSquare, plListView, plSettingAlt, plContent, plAlignCenter, plAlignRight, plAlignLeft,
+  plAt, plUnderline, plSource, plStrike, plBold, plItalic, plFont, plFontColor, plHeader1, plHeader2, plHeader3, plQuote, plLink, plAttachment, plUnlink,
+  plMinimize, plFullScreen, plUploads, plDownload, plCloudUp, plMoveIn, plMoveOut,
+  plBranch, plType, plMerge, plCommit, plTag, plFork, plVersion, plPriority, plModule, plStatus,
+  plSearch, plSortDesc, plFilter, plCopy, plEdit, plPencil, plPicker, plTrash, plImport, plSetting, plShare, plCooperate, plUndo, plRepair, plScroll, plDrag, plExpand, plUpdateLog, plPartake, plStar, plExit, plPosition, plMenuCollapse,
+  plDashboard, plView, plGantt, plSubtask, plOverview, plTable, plModel, plWeb, plWebhook, plWorkspace,
+  plAll, plSigma, plRepository, plRepo, plDomain, plLocalization, plDraft, plComment, plChat, plChatCircle, plReaded, plReadedSquare,
+  plTicket, plTrade, plImage, plMemo, plCertificate, plKey,
+  plCalendar, plClock, plClockRing, plSpeaker, plBell, plBellSmall, plEye, plFace, plPrivacy,
+  plMiniProgram, plAndroid, plIOS, plPHP, plCocos, plRobot
 }

@@ -172,6 +172,8 @@ import plStartTimeData from './icons/plStartTime'
 import plUpdateTimeData from './icons/plUpdateTime'
 import plBookMarkFolderData from './icons/plBookMarkFolder'
 import plLocalizationData from './icons/plLocalization'
+import plLangEnData from './icons/plLangEn'
+import plLangZhData from './icons/plLangZh'
 import plBookData from './icons/plBook'
 import plSpeakerData from './icons/plSpeaker'
 import plDraftData from './icons/plDraft'
@@ -406,6 +408,9 @@ const plStartTime = warpper(...plStartTimeData)
 const plUpdateTime = warpper(...plUpdateTimeData)
 const plBookMarkFolder = warpper(...plBookMarkFolderData)
 const plLocalization = warpper(...plLocalizationData)
+const plLangEn = warpper(...plLangEnData)
+const plLangZh = warpper(...plLangZhData)
+
 const plBook = warpper(...plBookData)
 const plSpeaker = warpper(...plSpeakerData)
 const plDraft = warpper(...plDraftData)
@@ -483,7 +488,7 @@ export {
   plBranch, plType, plMerge, plCommit, plTag, plFork, plVersion, plPriority, plModule, plStatus,
   plSearch, plSortDesc, plFilter, plCopy, plEdit, plPencil, plPicker, plTrash, plSave, plImport, plSetting, plShare, plCooperate, plUndo, plRepair, plScroll, plDrag, plExpand, plUpdateLog, plPartake, plStar, plExit, plPosition, plMenuCollapse,
   plDashboard, plView, plGantt, plSubtask, plOverview, plTable, plModel, plWeb, plWebhook, plWorkspace, plShowModel,
-  plAll, plSigma, plRepository, plRepo, plDomain, plLocalization, plDraft, plComment, plChat, plChatCircle, plReaded, plReadedSquare,
+  plAll, plSigma, plRepository, plRepo, plDomain, plLocalization, plLangEn, plLangZh, plDraft, plComment, plChat, plChatCircle, plReaded, plReadedSquare,
   plTicket, plTrade, plImage, plMemo, plCertificate, plKey, plLock,
   plCalendar, plClock, plClockRing, plCreateTime, plDeadline, plStartTime, plUpdateTime, plSpeaker, plBell, plBellSmall, plEye, plFace, plPrivacy,
   plMiniProgram, plAndroid, plIOS, plPHP, plCocos, plRobot

@@ -225,6 +225,11 @@ import plCocosData from './icons/plCocos'
 import plAllData from './icons/plAll'
 import plRobotData from './icons/plRobot'
 import plForbidData from './icons/plForbid'
+import plRevertData from './icons/plRevert'
+import plBackupData from './icons/plBackup'
+import plAccessData from './icons/plAccess'
+import plBuyData from './icons/plBuy'
+import plQrcodeData from './icons/plQrcode'
 
 const warpper = function (name, size, path0, path1) {
   return {
@@ -462,6 +467,11 @@ const plCocos = warpper(...plCocosData)
 const plAll = warpper(...plAllData)
 const plRobot = warpper(...plRobotData)
 const plForbid = warpper(...plForbidData)
+const plRevert = warpper(...plRevertData)
+const plBackup = warpper(...plBackupData)
+const plAccess = warpper(...plAccessData)
+const plBuy = warpper(...plBuyData)
+const plQrcode = warpper(...plQrcodeData)
 
 export {
   // solid icon
@@ -491,5 +501,5 @@ export {
   plAll, plSigma, plRepository, plRepo, plDomain, plLocalization, plLangEn, plLangZh, plDraft, plComment, plChat, plChatCircle, plReaded, plReadedSquare,
   plTicket, plTrade, plImage, plMemo, plCertificate, plKey, plLock,
   plCalendar, plClock, plClockRing, plCreateTime, plDeadline, plStartTime, plUpdateTime, plSpeaker, plBell, plBellSmall, plEye, plFace, plPrivacy,
-  plMiniProgram, plAndroid, plIOS, plPHP, plCocos, plRobot
+  plMiniProgram, plAndroid, plIOS, plPHP, plCocos, plRobot, plRevert, plBackup, plAccess, plBuy, plQrcode
 }

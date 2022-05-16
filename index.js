@@ -208,6 +208,7 @@ import plZoomInData from './icons/plZoomIn'
 import plZoomOutData from './icons/plZoomOut'
 import plCloseCircleData from './icons/plCloseCircle'
 import plSigmaData from './icons/plSigma'
+import plPageData from './icons/plPage'
 import plWebData from './icons/plWeb'
 import plWebhookData from './icons/plWebhook'
 import plWorkspaceData from './icons/plWorkspace'
@@ -450,6 +451,7 @@ const plZoomIn = warpper(...plZoomInData)
 const plZoomOut = warpper(...plZoomOutData)
 const plCloseCircle = warpper(...plCloseCircleData)
 const plSigma = warpper(...plSigmaData)
+const plPage = warpper(...plPageData)
 const plWeb = warpper(...plWebData)
 const plWebhook = warpper(...plWebhookData)
 const plWorkspace = warpper(...plWorkspaceData)
@@ -497,7 +499,7 @@ export {
   plMinimize, plFullScreen, plUploads, plDownload, plCloudUp, plMoveIn, plMoveOut,
   plBranch, plType, plMerge, plCommit, plTag, plFork, plVersion, plPriority, plModule, plStatus,
   plSearch, plSortDesc, plFilter, plCopy, plEdit, plPencil, plPicker, plTrash, plSave, plImport, plSetting, plShare, plCooperate, plUndo, plRepair, plScroll, plDrag, plExpand, plUpdateLog, plPartake, plStar, plExit, plPosition, plMenuCollapse,
-  plDashboard, plView, plGantt, plSubtask, plOverview, plTable, plModel, plWeb, plWebhook, plWorkspace, plShowModel,
+  plDashboard, plView, plGantt, plSubtask, plOverview, plTable, plModel, plPage, plWeb, plWebhook, plWorkspace, plShowModel,
   plAll, plSigma, plRepository, plRepo, plDomain, plLocalization, plLangEn, plLangZh, plDraft, plComment, plChat, plChatCircle, plReaded, plReadedSquare,
   plTicket, plTrade, plImage, plMemo, plCertificate, plKey, plLock,
   plCalendar, plClock, plClockRing, plCreateTime, plDeadline, plStartTime, plUpdateTime, plSpeaker, plBell, plBellSmall, plEye, plFace, plPrivacy,

@@ -25,7 +25,8 @@ yarn upgrade @pgyer/icons
 
 ## 使用
 
-> 注意: 需要配合 &lt;FontAwesomeIcon /&gt; 使用
+> 注意: 需要配合 &lt;FontAwesomeIcon /&gt; 或 &lt;PIcon /&gt; 使用    
+> 注意: 在使用 `彩色图标` 时, 必须配合 &lt;PIcon /&gt; 使用, 其余情况 &lt;FontAwesomeIcon /&gt; 和 &lt;PIcon /&gt; 都能满足使用要求。
 
 1. 引入
 
@@ -36,6 +37,14 @@ import { iconName } from '@pgyer/icons'
 
 ```
 
+或
+
+```javascript
+
+import { PIcon, iconName } from '@pgyer/icons'
+
+```
+
 2. 调用
 
 与 `FontAwesomeIcon` 组件使用方法相同
@@ -43,6 +52,7 @@ import { iconName } from '@pgyer/icons'
 ```jsx
 
 <FontAwesomeIcon icon={iconName} />
+<PIcon icon={iconName} />
 
 ```
 

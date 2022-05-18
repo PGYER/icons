@@ -232,11 +232,25 @@ import plAccessData from './icons/plAccess'
 import plBuyData from './icons/plBuy'
 import plQrcodeData from './icons/plQrcode'
 
+// colored icon
+import pcFigmaData from './icons/pcFigma'
+
+// icon contaienr
+import PIcon from './container/PIcon'
+
 const warpper = function (name, size, path0, path1) {
   return {
     prefix: 'pg',
     iconName: name,
     icon: [size[0], size[1], [], 'e000', [path1, path0]]
+  }
+}
+
+const warpperColor = function (name, size, iconData) {
+  return {
+    prefix: 'pgc',
+    iconName: name,
+    icon: [size[0], size[1], iconData]
   }
 }
 
@@ -475,6 +489,8 @@ const plAccess = warpper(...plAccessData)
 const plBuy = warpper(...plBuyData)
 const plQrcode = warpper(...plQrcodeData)
 
+const pcFigma = warpperColor(...pcFigmaData)
+
 export {
   // solid icon
   psMemberAlt, psMembers,
@@ -503,5 +519,11 @@ export {
   plAll, plSigma, plRepository, plRepo, plDomain, plLocalization, plLangEn, plLangZh, plDraft, plComment, plChat, plChatCircle, plReaded, plReadedSquare,
   plTicket, plTrade, plImage, plMemo, plCertificate, plKey, plLock,
   plCalendar, plClock, plClockRing, plCreateTime, plDeadline, plStartTime, plUpdateTime, plSpeaker, plBell, plBellSmall, plEye, plFace, plPrivacy,
-  plMiniProgram, plAndroid, plIOS, plPHP, plCocos, plRobot, plRevert, plBackup, plAccess, plBuy, plQrcode
+  plMiniProgram, plAndroid, plIOS, plPHP, plCocos, plRobot, plRevert, plBackup, plAccess, plBuy, plQrcode,
+
+  // colored icon
+  pcFigma,
+
+  // icon container
+  PIcon
 }

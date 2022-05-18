@@ -15,6 +15,31 @@ yarn upgrade @pgyer/icons
 
 ```
 
+2. 配置 webpack Loader
+
+找到 `webpack` 配置, 找到 `module` 配置, 找到 `rules` 后, 在包含 `oneOf` 的配置中加入如下代码
+
+```javascript
+
+// 老版本 create-react-app, 可能是这样的
+{
+  test: /\.(js|mjs|jsx|ts|tsx)$/,
+  include: paths.appNodeModules.concat('/@pgyer/icons'),
+  loader: require.resolve('babel-loader'),
+...
+
+// 升级新版 create-react-app 以后, 可能是这样的
+{
+  test: /\.(js|mjs|jsx|ts|tsx)$/,
+  include: [
+    paths.appSrc,
+    paths.appNodeModules.concat('/@pgyer/icons')
+  ],
+  loader: require.resolve('babel-loader'),
+...
+
+```
+
 ## l18n
 
 `icons` 不包含 `l18n` 设置和内容

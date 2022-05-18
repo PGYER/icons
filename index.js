@@ -233,7 +233,13 @@ import plBuyData from './icons/plBuy'
 import plQrcodeData from './icons/plQrcode'
 
 // colored icon
+import pcPgyerData from './icons/pcPgyer'
+import pcTracupData from './icons/pcTracup'
+import pcFrontJSData from './icons/pcFrontJS'
+import pcCodeFeverData from './icons/pcCodeFever'
+import pcSeedData from './icons/pcSeed'
 import pcFigmaData from './icons/pcFigma'
+import pcTestFlightData from './icons/pcTestFlight'
 
 // icon contaienr
 import PIcon from './container/PIcon'
@@ -489,6 +495,12 @@ const plAccess = warpper(...plAccessData)
 const plBuy = warpper(...plBuyData)
 const plQrcode = warpper(...plQrcodeData)
 
+const pcPgyer = warpperColor(...pcPgyerData)
+const pcTracup = warpperColor(...pcTracupData)
+const pcFrontJS = warpperColor(...pcFrontJSData)
+const pcCodeFever = warpperColor(...pcCodeFeverData)
+const pcSeed = warpperColor(...pcSeedData)
+const pcTestFlight = warpperColor(...pcTestFlightData)
 const pcFigma = warpperColor(...pcFigmaData)
 
 export {
@@ -522,7 +534,8 @@ export {
   plMiniProgram, plAndroid, plIOS, plPHP, plCocos, plRobot, plRevert, plBackup, plAccess, plBuy, plQrcode,
 
   // colored icon
-  pcFigma,
+  pcPgyer, pcTracup, pcFrontJS, pcCodeFever, pcSeed,
+  pcTestFlight, pcFigma,
 
   // icon container
   PIcon

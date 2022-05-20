@@ -238,8 +238,32 @@ import pcTracupData from './icons/pcTracup'
 import pcFrontJSData from './icons/pcFrontJS'
 import pcCodeFeverData from './icons/pcCodeFever'
 import pcSeedData from './icons/pcSeed'
-import pcFigmaData from './icons/pcFigma'
 import pcTestFlightData from './icons/pcTestFlight'
+import pcAppleData from './icons/pcApple'
+import pcFigmaData from './icons/pcFigma'
+import pcTencentVideoData from './icons/pcTencentVideo'
+import pcSlackData from './icons/pcSlack'
+import pcNeteaseMusicData from './icons/pcNeteaseMusic'
+import pcTwitterData from './icons/pcTwitter'
+import pcCodepenData from './icons/pcCodepen'
+import pcYoutubeData from './icons/pcYoutube'
+import pcJinshujuData from './icons/pcJinshuju'
+import pcGithubData from './icons/pcGithub'
+import pcTencentMeetingData from './icons/pcTencentMeeting'
+import pcSeaTableData from './icons/pcSeaTable'
+import pcLoomData from './icons/pcLoom'
+import pcGoogleDriveData from './icons/pcGoogleDrive'
+import pcTencentWJData from './icons/pcTencentWJ'
+import pcZoomData from './icons/pcZoom'
+import pcAirTableData from './icons/pcAirTable'
+import pcMasterGoData from './icons/pcMasterGo'
+import pcProcessOnData from './icons/pcProcessOn'
+import pcYoukuData from './icons/pcYouku'
+import pcShimoData from './icons/pcShimo'
+import pcModaoData from './icons/pcModao'
+import pcBilibiliData from './icons/pcBilibili'
+import pcDropboxData from './icons/pcDropbox'
+import pcLanhuData from './icons/pcLanhu'
 
 // icon contaienr
 import PIcon from './container/PIcon'
@@ -252,11 +276,11 @@ const warpper = function (name, size, path0, path1) {
   }
 }
 
-const warpperColor = function (name, size, iconData) {
+const warpperColor = function (name, size, iconData, svgData) {
   return {
     prefix: 'pgc',
     iconName: name,
-    icon: [size[0], size[1], iconData]
+    icon: [size[0], size[1], iconData, svgData]
   }
 }
 
@@ -500,15 +524,40 @@ const pcTracup = warpperColor(...pcTracupData)
 const pcFrontJS = warpperColor(...pcFrontJSData)
 const pcCodeFever = warpperColor(...pcCodeFeverData)
 const pcSeed = warpperColor(...pcSeedData)
+const pcApple = warpperColor(...pcAppleData)
 const pcTestFlight = warpperColor(...pcTestFlightData)
 const pcFigma = warpperColor(...pcFigmaData)
+const pcTencentVideo = warpperColor(...pcTencentVideoData)
+const pcSlack = warpperColor(...pcSlackData)
+const pcNeteaseMusic = warpperColor(...pcNeteaseMusicData)
+const pcTwitter = warpperColor(...pcTwitterData)
+const pcCodepen = warpperColor(...pcCodepenData)
+const pcYoutube = warpperColor(...pcYoutubeData)
+const pcJinshuju = warpperColor(...pcJinshujuData)
+const pcGithub = warpperColor(...pcGithubData)
+const pcTencentMeeting = warpperColor(...pcTencentMeetingData)
+const pcSeaTable = warpperColor(...pcSeaTableData)
+const pcLoom = warpperColor(...pcLoomData)
+const pcGoogleDrive = warpperColor(...pcGoogleDriveData)
+const pcTencentWJ = warpperColor(...pcTencentWJData)
+const pcZoom = warpperColor(...pcZoomData)
+const pcAirTable = warpperColor(...pcAirTableData)
+const pcMasterGo = warpperColor(...pcMasterGoData)
+const pcProcessOn = warpperColor(...pcProcessOnData)
+const pcYouku = warpperColor(...pcYoukuData)
+const pcShimo = warpperColor(...pcShimoData)
+const pcModao = warpperColor(...pcModaoData)
+const pcBilibili = warpperColor(...pcBilibiliData)
+const pcDropbox = warpperColor(...pcDropboxData)
+const pcLanhu = warpperColor(...pcLanhuData)
 
 export {
   // solid icon
   psMemberAlt, psMembers,
   psFile, psFee, psLog, psPurchased, psBook,
   psFolder, psFolderOpen, psFolderGroup, psBookMarkFolder,
-  psAddAlt, psAdd, psConfirm, psCheckbox, psCloudCheck, psClose, psError, psInfo, psExclamationTriangle, psAlarm, psBell, psNewFeature, psCalendar, psClock, psClockRing,
+  psAddAlt, psAdd, psConfirm, psCheckbox, psCloudCheck, psClose, psError, psInfo,
+  psExclamationTriangle, psAlarm, psBell, psNewFeature, psCalendar, psClock, psClockRing,
   psTicket, psCreditCards, psWallet, psConsume, psCoupon, psChip, psShoppingCart,
   psRepository, psRepositoryGroup, psOverview, psContent, psBox, psEmail,
   psChart, psPieChart, psMeter, psStar, psPriority, psPlay, psPause,
@@ -517,25 +566,32 @@ export {
   psMiniProgram, psCodefever, psChrome, psGithub, psFirefox, psTracupbot, psCoding, psBitbucket,
 
   // line frame icon
-  plMemberSmall, plMemberAlt, plMember, plMemberAdd, plMemberAssignee, plMemberFollow, plMemberInfo, plMemberRole, plMemberSetting,
-  plFile, plFileCheck, plCodeFile, plUnknownFile, plOrder, plUpload, plBook,
-  plFolder, plFolderAdd, plFolderRemove, plBookMarkFolder, plFolderArchive,
-  plAdd, plAddAlt, plRepeat, plZoomIn, plZoomOut, plCheck, plConfirm, plCheckbox, plSafe, plMerged, plClose, plCloseCircle, plHelp, plWarning, plForbid,
-  plAngleUp, plAngleRight, plAngleRightSquare, plAngleDown, plAngleLeft,
-  plList, plOrderList, plNumberList, plListSquare, plListView, plSettingAlt, plContent, plAlignCenter, plAlignRight, plAlignLeft,
-  plAt, plUnderline, plSource, plStrike, plBold, plItalic, plFont, plFontColor, plHeader1, plHeader2, plHeader3, plQuote, plLink, plAttachment, plUnlink,
-  plMinimize, plFullScreen, plUploads, plDownload, plCloudUp, plMoveIn, plMoveOut,
+  plMemberSmall, plMemberAlt, plMember, plMemberAdd, plMemberAssignee, plMemberFollow, plMemberInfo,
+  plMemberRole, plMemberSetting, plFile, plFileCheck, plCodeFile, plUnknownFile, plOrder,
+  plUpload, plBook, plFolder, plFolderAdd, plFolderRemove, plBookMarkFolder, plFolderArchive,
+  plAdd, plAddAlt, plRepeat, plZoomIn, plZoomOut, plCheck, plConfirm, plCheckbox, plSafe, plMerged,
+  plClose, plCloseCircle, plHelp, plWarning, plForbid, plAngleUp, plAngleRight, plAngleRightSquare,
+  plAngleDown, plAngleLeft, plList, plOrderList, plNumberList, plListSquare, plListView,
+  plSettingAlt, plContent, plAlignCenter, plAlignRight, plAlignLeft, plAt, plUnderline, plSource,
+  plStrike, plBold, plItalic, plFont, plFontColor, plHeader1, plHeader2, plHeader3, plQuote, plLink,
+  plAttachment, plUnlink, plMinimize, plFullScreen, plUploads, plDownload, plCloudUp, plMoveIn, plMoveOut,
   plBranch, plType, plMerge, plCommit, plTag, plFork, plVersion, plPriority, plModule, plStatus,
-  plSearch, plSortDesc, plFilter, plCopy, plEdit, plPencil, plPicker, plTrash, plSave, plImport, plSetting, plShare, plCooperate, plUndo, plRepair, plScroll, plDrag, plExpand, plUpdateLog, plPartake, plStar, plExit, plPosition, plMenuCollapse,
-  plDashboard, plView, plGantt, plSubtask, plOverview, plTable, plModel, plPage, plWeb, plWebhook, plWorkspace, plShowModel,
-  plAll, plSigma, plRepository, plRepo, plDomain, plLocalization, plLangEn, plLangZh, plDraft, plComment, plChat, plChatCircle, plReaded, plReadedSquare,
-  plTicket, plTrade, plImage, plMemo, plCertificate, plKey, plLock,
-  plCalendar, plClock, plClockRing, plCreateTime, plDeadline, plStartTime, plUpdateTime, plSpeaker, plBell, plBellSmall, plEye, plFace, plPrivacy,
-  plMiniProgram, plAndroid, plIOS, plPHP, plCocos, plRobot, plRevert, plBackup, plAccess, plBuy, plQrcode,
+  plSearch, plSortDesc, plFilter, plCopy, plEdit, plPencil, plPicker, plTrash, plSave, plImport,
+  plSetting, plShare, plCooperate, plUndo, plRepair, plScroll, plDrag, plExpand, plUpdateLog, plPartake,
+  plStar, plExit, plPosition, plMenuCollapse, plDashboard, plView, plGantt, plSubtask, plOverview,
+  plTable, plModel, plPage, plWeb, plWebhook, plWorkspace, plShowModel, plAll, plSigma, plRepository,
+  plRepo, plDomain, plLocalization, plLangEn, plLangZh, plDraft, plComment, plChat, plChatCircle,
+  plReaded, plReadedSquare, plTicket, plTrade, plImage, plMemo, plCertificate, plKey, plLock,
+  plCalendar, plClock, plClockRing, plCreateTime, plDeadline, plStartTime, plUpdateTime, plSpeaker,
+  plBell, plBellSmall, plEye, plFace, plPrivacy, plMiniProgram, plAndroid, plIOS, plPHP, plCocos,
+  plRobot, plRevert, plBackup, plAccess, plBuy, plQrcode,
 
   // colored icon
   pcPgyer, pcTracup, pcFrontJS, pcCodeFever, pcSeed,
-  pcTestFlight, pcFigma,
+  pcApple, pcTestFlight, pcFigma, pcTencentVideo, pcSlack, pcNeteaseMusic, pcTwitter, pcCodepen,
+  pcYoutube, pcJinshuju, pcGithub, pcTencentMeeting, pcSeaTable, pcLoom, pcGoogleDrive,
+  pcTencentWJ, pcZoom, pcAirTable, pcMasterGo, pcProcessOn, pcYouku, pcShimo, pcModao,
+  pcBilibili, pcDropbox, pcLanhu,
 
   // icon container
   PIcon

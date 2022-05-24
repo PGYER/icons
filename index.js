@@ -231,6 +231,8 @@ import plBackupData from './icons/plBackup'
 import plAccessData from './icons/plAccess'
 import plBuyData from './icons/plBuy'
 import plQrcodeData from './icons/plQrcode'
+import plOpenData from './icons/plOpen'
+import plIntegratedData from './icons/plIntegrated'
 
 // colored icon
 import pcPgyerData from './icons/pcPgyer'
@@ -518,6 +520,8 @@ const plBackup = warpper(...plBackupData)
 const plAccess = warpper(...plAccessData)
 const plBuy = warpper(...plBuyData)
 const plQrcode = warpper(...plQrcodeData)
+const plOpen = warpper(...plOpenData)
+const plIntegrated = warpper(...plIntegratedData)
 
 const pcPgyer = warpperColor(...pcPgyerData)
 const pcTracup = warpperColor(...pcTracupData)
@@ -584,7 +588,7 @@ export {
   plReaded, plReadedSquare, plTicket, plTrade, plImage, plMemo, plCertificate, plKey, plLock,
   plCalendar, plClock, plClockRing, plCreateTime, plDeadline, plStartTime, plUpdateTime, plSpeaker,
   plBell, plBellSmall, plEye, plFace, plPrivacy, plMiniProgram, plAndroid, plIOS, plPHP, plCocos,
-  plRobot, plRevert, plBackup, plAccess, plBuy, plQrcode,
+  plRobot, plRevert, plBackup, plAccess, plBuy, plQrcode, plOpen, plIntegrated,
 
   // colored icon
   pcPgyer, pcTracup, pcFrontJS, pcCodeFever, pcSeed,

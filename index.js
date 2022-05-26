@@ -87,6 +87,7 @@ import plDomainData from './icons/plDomain'
 import plRepeatData from './icons/plRepeat'
 import plRepoData from './icons/plRepo'
 import plSafeData from './icons/plSafe'
+import plSafeSquareData from './icons/plSafeSquare'
 import plImportData from './icons/plImport'
 import plHelpData from './icons/plHelp'
 import plMemberData from './icons/plMember'
@@ -210,6 +211,7 @@ import plCloseCircleData from './icons/plCloseCircle'
 import plSigmaData from './icons/plSigma'
 import plPageData from './icons/plPage'
 import plWebData from './icons/plWeb'
+import plReturnData from './icons/plReturn'
 import plWebhookData from './icons/plWebhook'
 import plWorkspaceData from './icons/plWorkspace'
 import plShowModelData from './icons/plShowModel'
@@ -375,6 +377,7 @@ const plDomain = warpper(...plDomainData)
 const plRepeat = warpper(...plRepeatData)
 const plRepo = warpper(...plRepoData)
 const plSafe = warpper(...plSafeData)
+const plSafeSquare = warpper(...plSafeSquareData)
 const plImport = warpper(...plImportData)
 const plHelp = warpper(...plHelpData)
 const plMember = warpper(...plMemberData)
@@ -499,6 +502,7 @@ const plCloseCircle = warpper(...plCloseCircleData)
 const plSigma = warpper(...plSigmaData)
 const plPage = warpper(...plPageData)
 const plWeb = warpper(...plWebData)
+const plReturn = warpper(...plReturnData)
 const plWebhook = warpper(...plWebhookData)
 const plWorkspace = warpper(...plWorkspaceData)
 const plShowModel = warpper(...plShowModelData)
@@ -573,7 +577,7 @@ export {
   plMemberSmall, plMemberAlt, plMember, plMemberAdd, plMemberAssignee, plMemberFollow, plMemberInfo,
   plMemberRole, plMemberSetting, plFile, plFileCheck, plCodeFile, plUnknownFile, plOrder,
   plUpload, plBook, plFolder, plFolderAdd, plFolderRemove, plBookMarkFolder, plFolderArchive,
-  plAdd, plAddAlt, plRepeat, plZoomIn, plZoomOut, plCheck, plConfirm, plCheckbox, plSafe, plMerged,
+  plAdd, plAddAlt, plRepeat, plZoomIn, plZoomOut, plCheck, plConfirm, plCheckbox, plSafe, plSafeSquare, plMerged,
   plClose, plCloseCircle, plHelp, plWarning, plForbid, plAngleUp, plAngleRight, plAngleRightSquare,
   plAngleDown, plAngleLeft, plList, plOrderList, plNumberList, plListSquare, plListView,
   plSettingAlt, plContent, plAlignCenter, plAlignRight, plAlignLeft, plAt, plUnderline, plSource,
@@ -583,7 +587,7 @@ export {
   plSearch, plSortDesc, plFilter, plCopy, plEdit, plPencil, plPicker, plTrash, plSave, plImport,
   plSetting, plShare, plCooperate, plUndo, plRepair, plScroll, plDrag, plExpand, plUpdateLog, plPartake,
   plStar, plExit, plPosition, plMenuCollapse, plDashboard, plView, plGantt, plSubtask, plOverview,
-  plTable, plModel, plPage, plWeb, plWebhook, plWorkspace, plShowModel, plAll, plSigma, plRepository,
+  plTable, plModel, plPage, plWeb, plReturn, plWebhook, plWorkspace, plShowModel, plAll, plSigma, plRepository,
   plRepo, plDomain, plLocalization, plLangEn, plLangZh, plDraft, plComment, plChat, plChatCircle,
   plReaded, plReadedSquare, plTicket, plTrade, plImage, plMemo, plCertificate, plKey, plLock,
   plCalendar, plClock, plClockRing, plCreateTime, plDeadline, plStartTime, plUpdateTime, plSpeaker,

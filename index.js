@@ -196,6 +196,7 @@ import plContentData from './icons/plContent'
 import plKeyData from './icons/plKey'
 import plLockData from './icons/plLock'
 import plMenuCollapseData from './icons/plMenuCollapse'
+import plDirCollapseData from './icons/plDirCollapse'
 import plCloudUpData from './icons/plCloudUp'
 import plFontColorData from './icons/plFontColor'
 import plHeader1Data from './icons/plHeader1'
@@ -487,6 +488,7 @@ const plContent = warpper(...plContentData)
 const plKey = warpper(...plKeyData)
 const plLock = warpper(...plLockData)
 const plMenuCollapse = warpper(...plMenuCollapseData)
+const plDirCollapse = warpper(...plDirCollapseData)
 const plCloudUp = warpper(...plCloudUpData)
 const plFontColor = warpper(...plFontColorData)
 const plHeader1 = warpper(...plHeader1Data)
@@ -586,7 +588,7 @@ export {
   plBranch, plType, plMerge, plCommit, plTag, plFork, plVersion, plPriority, plModule, plStatus,
   plSearch, plSortDesc, plFilter, plCopy, plEdit, plPencil, plPicker, plTrash, plSave, plImport,
   plSetting, plShare, plCooperate, plUndo, plRepair, plScroll, plDrag, plExpand, plUpdateLog, plPartake,
-  plStar, plExit, plPosition, plMenuCollapse, plDashboard, plView, plGantt, plSubtask, plOverview,
+  plStar, plExit, plPosition, plMenuCollapse, plDirCollapse, plDashboard, plView, plGantt, plSubtask, plOverview,
   plTable, plModel, plPage, plWeb, plReturn, plWebhook, plWorkspace, plShowModel, plAll, plSigma, plRepository,
   plRepo, plDomain, plLocalization, plLangEn, plLangZh, plDraft, plComment, plChat, plChatCircle,
   plReaded, plReadedSquare, plTicket, plTrade, plImage, plMemo, plCertificate, plKey, plLock,

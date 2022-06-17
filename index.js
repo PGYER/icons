@@ -72,6 +72,7 @@ import plCodeFileData from './icons/plCodeFile'
 import plBranchData from './icons/plBranch'
 import plExpandData from './icons/plExpand'
 import plEyeData from './icons/plEye'
+import plHideData from './icons/plHide'
 import plFaceData from './icons/plFace'
 import plFileData from './icons/plFile'
 import plFileCheckData from './icons/plFileCheck'
@@ -103,6 +104,8 @@ import plFolderArchiveData from './icons/plFolderArchive'
 import plEditData from './icons/plEdit'
 import plAngleUpData from './icons/plAngleUp'
 import plAtData from './icons/plAt'
+import plTextData from './icons/plText'
+import plNumberData from './icons/plNumber'
 import plAngleRightData from './icons/plAngleRight'
 import plAngleRightSquareData from './icons/plAngleRightSquare'
 import plAngleDownData from './icons/plAngleDown'
@@ -236,6 +239,7 @@ import plBuyData from './icons/plBuy'
 import plQrcodeData from './icons/plQrcode'
 import plOpenData from './icons/plOpen'
 import plIntegratedData from './icons/plIntegrated'
+import plCustomData from './icons/plCustom'
 
 // colored icon
 import pcPgyerData from './icons/pcPgyer'
@@ -363,6 +367,7 @@ const plCodeFile = warpper(...plCodeFileData)
 const plBranch = warpper(...plBranchData)
 const plExpand = warpper(...plExpandData)
 const plEye = warpper(...plEyeData)
+const plHide = warpper(...plHideData)
 const plFace = warpper(...plFaceData)
 const plFile = warpper(...plFileData)
 const plFileCheck = warpper(...plFileCheckData)
@@ -394,6 +399,8 @@ const plFolderArchive = warpper(...plFolderArchiveData)
 const plEdit = warpper(...plEditData)
 const plAngleUp = warpper(...plAngleUpData)
 const plAt = warpper(...plAtData)
+const plText = warpper(...plTextData)
+const plNumber = warpper(...plNumberData)
 const plAngleRight = warpper(...plAngleRightData)
 const plAngleRightSquare = warpper(...plAngleRightSquareData)
 const plAngleDown = warpper(...plAngleDownData)
@@ -528,6 +535,7 @@ const plBuy = warpper(...plBuyData)
 const plQrcode = warpper(...plQrcodeData)
 const plOpen = warpper(...plOpenData)
 const plIntegrated = warpper(...plIntegratedData)
+const plCustom = warpper(...plCustomData)
 
 const pcPgyer = warpperColor(...pcPgyerData)
 const pcTracup = warpperColor(...pcTracupData)
@@ -582,7 +590,7 @@ export {
   plAdd, plAddAlt, plRepeat, plZoomIn, plZoomOut, plCheck, plConfirm, plCheckbox, plSafe, plSafeSquare, plMerged,
   plClose, plCloseCircle, plHelp, plWarning, plForbid, plAngleUp, plAngleRight, plAngleRightSquare,
   plAngleDown, plAngleLeft, plList, plOrderList, plNumberList, plListSquare, plListView,
-  plSettingAlt, plContent, plAlignCenter, plAlignRight, plAlignLeft, plAt, plUnderline, plSource,
+  plSettingAlt, plContent, plAlignCenter, plAlignRight, plAlignLeft, plAt, plText, plNumber, plUnderline, plSource,
   plStrike, plBold, plItalic, plFont, plFontColor, plHeader1, plHeader2, plHeader3, plQuote, plLink,
   plAttachment, plUnlink, plMinimize, plFullScreen, plUploads, plDownload, plCloudUp, plMoveIn, plMoveOut,
   plBranch, plType, plMerge, plCommit, plTag, plFork, plVersion, plPriority, plModule, plStatus,
@@ -593,8 +601,8 @@ export {
   plRepo, plDomain, plLocalization, plLangEn, plLangZh, plDraft, plComment, plChat, plChatCircle,
   plReaded, plReadedSquare, plTicket, plTrade, plImage, plMemo, plCertificate, plKey, plLock,
   plCalendar, plClock, plClockRing, plCreateTime, plDeadline, plStartTime, plUpdateTime, plSpeaker,
-  plBell, plBellSmall, plEye, plFace, plPrivacy, plMiniProgram, plAndroid, plIOS, plPHP, plCocos,
-  plRobot, plRevert, plBackup, plAccess, plBuy, plQrcode, plOpen, plIntegrated,
+  plBell, plBellSmall, plEye, plHide, plFace, plPrivacy, plMiniProgram, plAndroid, plIOS, plPHP, plCocos,
+  plRobot, plRevert, plBackup, plAccess, plBuy, plQrcode, plOpen, plIntegrated, plCustom,
 
   // colored icon
   pcPgyer, pcTracup, pcFrontJS, pcCodeFever, pcSeed,

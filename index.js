@@ -275,6 +275,7 @@ import pcModaoData from './icons/pcModao'
 import pcBilibiliData from './icons/pcBilibili'
 import pcDropboxData from './icons/pcDropbox'
 import pcLanhuData from './icons/pcLanhu'
+import pcOfficeData from './icons/pcOffice'
 
 // icon contaienr
 import PIcon from './container/PIcon'
@@ -572,6 +573,7 @@ const pcModao = warpperColor(...pcModaoData)
 const pcBilibili = warpperColor(...pcBilibiliData)
 const pcDropbox = warpperColor(...pcDropboxData)
 const pcLanhu = warpperColor(...pcLanhuData)
+const pcOffice = warpperColor(...pcOfficeData)
 
 export {
   // solid icon
@@ -614,7 +616,7 @@ export {
   pcApple, pcTestFlight, pcFigma, pcTencentVideo, pcSlack, pcNeteaseMusic, pcTwitter, pcCodepen,
   pcYoutube, pcJinshuju, pcGithub, pcTencentMeeting, pcSeaTable, pcLoom, pcGoogleDrive,
   pcTencentWJ, pcZoom, pcAirTable, pcMasterGo, pcProcessOn, pcYouku, pcShimo, pcModao,
-  pcBilibili, pcDropbox, pcLanhu,
+  pcBilibili, pcDropbox, pcLanhu, pcOffice,
 
   // icon container
   PIcon

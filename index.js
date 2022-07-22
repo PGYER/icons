@@ -245,6 +245,7 @@ import plDragMergeData from './icons/plDragMerge'
 import plCaseData from './icons/plCase'
 import plSoftwareData from './icons/plSoftware'
 import plTemplateData from './icons/plTemplate'
+import plOperationData from './icons/plOperation'
 
 // colored icon
 import pcPgyerData from './icons/pcPgyer'
@@ -547,6 +548,7 @@ const plDragMerge = warpper(...plDragMergeData)
 const plCase = warpper(...plCaseData)
 const plSoftware = warpper(...plSoftwareData)
 const plTemplate = warpper(...plTemplateData)
+const plOperation = warpper(...plOperationData)
 
 const pcPgyer = warpperColor(...pcPgyerData)
 const pcTracup = warpperColor(...pcTracupData)
@@ -615,7 +617,7 @@ export {
   plCalendar, plClock, plClockRing, plCreateTime, plDeadline, plStartTime, plUpdateTime, plSpeaker,
   plBell, plBellSmall, plEye, plHide, plFace, plPrivacy, plMiniProgram, plAndroid, plIOS, plPHP, plCocos,
   plRobot, plRevert, plBackup, plAccess, plBuy, plQrcode, plOpen, plIntegrated, plCustom, plCustomField,
-  plDragMerge, plCase, plSoftware, plTemplate,
+  plDragMerge, plCase, plSoftware, plTemplate, plOperation,
 
   // colored icon
   pcPgyer, pcTracup, pcFrontJS, pcCodeFever, pcSeed,

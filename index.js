@@ -183,6 +183,7 @@ import plSpeakerData from './icons/plSpeaker'
 import plDraftData from './icons/plDraft'
 import plDragData from './icons/plDrag'
 import plTableData from './icons/plTable'
+import plTableComponentData from './icons/plTableComponent'
 import plCommentData from './icons/plComment'
 import plMemberInfoData from './icons/plMemberInfo'
 import plMemberRoleData from './icons/plMemberRole'
@@ -246,6 +247,7 @@ import plCaseData from './icons/plCase'
 import plSoftwareData from './icons/plSoftware'
 import plTemplateData from './icons/plTemplate'
 import plOperationData from './icons/plOperation'
+import plNailData from './icons/plNail'
 
 // colored icon
 import pcPgyerData from './icons/pcPgyer'
@@ -486,6 +488,7 @@ const plSpeaker = warpper(...plSpeakerData)
 const plDraft = warpper(...plDraftData)
 const plDrag = warpper(...plDragData)
 const plTable = warpper(...plTableData)
+const plTableComponent = warpper(...plTableComponentData)
 const plComment = warpper(...plCommentData)
 const plMemberInfo = warpper(...plMemberInfoData)
 const plMemberRole = warpper(...plMemberRoleData)
@@ -549,6 +552,7 @@ const plCase = warpper(...plCaseData)
 const plSoftware = warpper(...plSoftwareData)
 const plTemplate = warpper(...plTemplateData)
 const plOperation = warpper(...plOperationData)
+const plNail = warpper(...plNailData)
 
 const pcPgyer = warpperColor(...pcPgyerData)
 const pcTracup = warpperColor(...pcTracupData)
@@ -611,13 +615,13 @@ export {
   plSearch, plSortDesc, plFilter, plCopy, plEdit, plPencil, plPicker, plTrash, plSave, plImport,
   plSetting, plShare, plCooperate, plUndo, plRepair, plScroll, plDrag, plExpand, plUpdateLog, plPartake,
   plStar, plExit, plPosition, plMenuCollapse, plDirCollapse, plDashboard, plView, plGantt, plSubtask, plOverview,
-  plTable, plModel, plPage, plWeb, plReturn, plWebhook, plWorkspace, plShowModel, plAll, plSigma, plRepository,
+  plTable, plTableComponent, plModel, plPage, plWeb, plReturn, plWebhook, plWorkspace, plShowModel, plAll, plSigma, plRepository,
   plRepo, plDomain, plLocalization, plLangEn, plLangZh, plDraft, plComment, plChat, plChatCircle,
   plReaded, plReadedSquare, plTicket, plTrade, plImage, plMemo, plCertificate, plKey, plLock,
   plCalendar, plClock, plClockRing, plCreateTime, plDeadline, plStartTime, plUpdateTime, plSpeaker,
   plBell, plBellSmall, plEye, plHide, plFace, plPrivacy, plMiniProgram, plAndroid, plIOS, plPHP, plCocos,
   plRobot, plRevert, plBackup, plAccess, plBuy, plQrcode, plOpen, plIntegrated, plCustom, plCustomField,
-  plDragMerge, plCase, plSoftware, plTemplate, plOperation,
+  plDragMerge, plCase, plSoftware, plTemplate, plOperation, plNail,
 
   // colored icon
   pcPgyer, pcTracup, pcFrontJS, pcCodeFever, pcSeed,

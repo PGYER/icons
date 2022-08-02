@@ -124,6 +124,7 @@ import plWarningData from './icons/plWarning'
 import plUnderlineData from './icons/plUnderline'
 import plDownloadData from './icons/plDownload'
 import plSourceData from './icons/plSource'
+import plFullData from './icons/plFull'
 import plFullScreenData from './icons/plFullScreen'
 import plGanttData from './icons/plGantt'
 import plCloseData from './icons/plClose'
@@ -428,6 +429,7 @@ const plWarning = warpper(...plWarningData)
 const plUnderline = warpper(...plUnderlineData)
 const plDownload = warpper(...plDownloadData)
 const plSource = warpper(...plSourceData)
+const plFull = warpper(...plFullData)
 const plFullScreen = warpper(...plFullScreenData)
 const plGantt = warpper(...plGanttData)
 const plClose = warpper(...plCloseData)
@@ -610,7 +612,7 @@ export {
   plAngleDown, plAngleLeft, plList, plOrderList, plNumberList, plListSquare, plListView,
   plSettingAlt, plContent, plAlignCenter, plAlignRight, plAlignLeft, plAt, plText, plNumber, plUnderline, plSource,
   plStrike, plBold, plItalic, plFont, plFontColor, plHeader1, plHeader2, plHeader3, plQuote, plLink,
-  plAttachment, plUnlink, plMinimize, plFullScreen, plUploads, plDownload, plCloudUp, plMoveIn, plMoveOut,
+  plAttachment, plUnlink, plMinimize, plFull, plFullScreen, plUploads, plDownload, plCloudUp, plMoveIn, plMoveOut,
   plBranch, plType, plMerge, plCommit, plTag, plFork, plVersion, plPriority, plModule, plStatus,
   plSearch, plSortDesc, plFilter, plCopy, plEdit, plPencil, plPicker, plTrash, plSave, plImport,
   plSetting, plShare, plCooperate, plUndo, plRepair, plScroll, plDrag, plExpand, plUpdateLog, plPartake,

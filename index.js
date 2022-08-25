@@ -34,6 +34,7 @@ import psBookMarkFolderData from './icons/psBookMarkFolder'
 import psCommentData from './icons/psComment'
 import psPauseData from './icons/psPause'
 import psMoreData from './icons/psMore'
+import psNailData from './icons/psNail'
 import psNewFeatureData from './icons/psNewFeature'
 import psCheckboxData from './icons/psCheckbox'
 import psOverviewData from './icons/psOverview'
@@ -339,6 +340,7 @@ const psBookMarkFolder = warpper(...psBookMarkFolderData)
 const psComment = warpper(...psCommentData)
 const psPause = warpper(...psPauseData)
 const psMore = warpper(...psMoreData)
+const psNail = warpper(...psNailData)
 const psNewFeature = warpper(...psNewFeatureData)
 const psCheckbox = warpper(...psCheckboxData)
 const psOverview = warpper(...psOverviewData)
@@ -599,7 +601,7 @@ export {
   psTicket, psCreditCards, psWallet, psConsume, psCoupon, psChip, psShoppingCart,
   psRepository, psRepositoryGroup, psOverview, psContent, psBox, psEmail,
   psChart, psPieChart, psMeter, psStar, psPriority, psPlay, psPause,
-  psHome, psCaretDown, psSetting, psTrash, psMore,
+  psHome, psCaretDown, psSetting, psTrash, psMore, psNail,
   psTag, psMerge, psCommit, psBranch, psComment, psKey, psLock,
   psMiniProgram, psCodefever, psChrome, psGithub, psFirefox, psTracupbot, psCoding, psBitbucket,
 

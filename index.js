@@ -6,6 +6,7 @@ import psFolderOpenData from './icons/psFolderOpen'
 import psGithubData from './icons/psGithub'
 import psAddAltData from './icons/psAddAlt'
 import psConfirmData from './icons/psConfirm'
+import psForbidData from './icons/psForbid'
 import psRepositoryData from './icons/psRepository'
 import psRepositoryGroupData from './icons/psRepositoryGroup'
 import psMembersData from './icons/psMembers'
@@ -168,6 +169,7 @@ import plPartakeData from './icons/plPartake'
 import plPencilData from './icons/plPencil'
 import plStarData from './icons/plStar'
 import plStatusData from './icons/plStatus'
+import plDependenceData from './icons/plDependence'
 import plCheckboxData from './icons/plCheckbox'
 import plAddData from './icons/plAdd'
 import plAddAltData from './icons/plAddAlt'
@@ -317,6 +319,7 @@ const psFolderOpen = warpper(...psFolderOpenData)
 const psGithub = warpper(...psGithubData)
 const psAddAlt = warpper(...psAddAltData)
 const psConfirm = warpper(...psConfirmData)
+const psForbid = warpper(...psForbidData)
 const psRepository = warpper(...psRepositoryData)
 const psRepositoryGroup = warpper(...psRepositoryGroupData)
 const psMembers = warpper(...psMembersData)
@@ -479,6 +482,7 @@ const plPartake = warpper(...plPartakeData)
 const plPencil = warpper(...plPencilData)
 const plStar = warpper(...plStarData)
 const plStatus = warpper(...plStatusData)
+const plDependence = warpper(...plDependenceData)
 const plCheckbox = warpper(...plCheckboxData)
 const plAdd = warpper(...plAddData)
 const plAddAlt = warpper(...plAddAltData)
@@ -606,7 +610,7 @@ export {
   psMemberAlt, psMembers,
   psFile, psFee, psLog, psPurchased, psBook,
   psFolder, psFolderOpen, psFolderGroup, psBookMarkFolder,
-  psAddAlt, psAdd, psConfirm, psCheckbox, psCloudCheck, psClose, psError, psInfo,
+  psAddAlt, psAdd, psConfirm, psForbid, psCheckbox, psCloudCheck, psClose, psError, psInfo,
   psExclamationTriangle, psAlarm, psBell, psNewFeature, psCalendar, psClock, psClockRing,
   psTicket, psCreditCards, psWallet, psConsume, psCoupon, psChip, psShoppingCart,
   psRepository, psRepositoryGroup, psOverview, psContent, psBox, psEmail,
@@ -625,7 +629,7 @@ export {
   plSettingAlt, plContent, plAlignCenter, plAlignRight, plAlignLeft, plAt, plText, plNumber, plUnderline, plSource,
   plStrike, plBold, plItalic, plFont, plFontColor, plHeader1, plHeader2, plHeader3, plQuote, plLink,
   plAttachment, plUnlink, plMinimize, plFull, plFullScreen, plUploads, plDownload, plCloudUp, plMoveIn, plMoveOut,
-  plBranch, plType, plMerge, plCommit, plTag, plFork, plVersion, plPriority, plModule, plStatus,
+  plBranch, plType, plMerge, plCommit, plTag, plFork, plVersion, plPriority, plModule, plStatus, plDependence,
   plSearch, plSortDesc, plFilter, plCopy, plEdit, plPencil, plPicker, plTrash, plSave, plImport,
   plSetting, plShare, plCooperate, plUndo, plRepair, plScroll, plDrag, plExpand, plUpdateLog, plPartake,
   plStar, plExit, plPosition, plMenuCollapse, plDirCollapse, plDashboard, plView, plGantt, plSubtask, plOverview,

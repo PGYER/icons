@@ -67,6 +67,7 @@ import psPurchasedData from './icons/psPurchased'
 import psEmailData from './icons/psEmail'
 import psKeyData from './icons/psKey'
 import psLockData from './icons/psLock'
+import psPublicShareData from './icons/psPublicShare'
 
 // line frame icon
 import plRepositoryData from './icons/plRepository'
@@ -381,6 +382,7 @@ const psPurchased = warpper(...psPurchasedData)
 const psEmail = warpper(...psEmailData)
 const psKey = warpper(...psKeyData)
 const psLock = warpper(...psLockData)
+const psPublicShare = warpper(...psPublicShareData)
 
 // line frame icon
 const plRepository = warpper(...plRepositoryData)
@@ -619,7 +621,7 @@ export {
   psChart, psPieChart, psMeter, psStar, psPriority, psPlay, psPause,
   psHome, psCaretDown, psSetting, psTrash, psMore, psNail,
   psTag, psMerge, psCommit, psBranch, psComment, psKey, psLock,
-  psMiniProgram, psCodefever, psChrome, psGithub, psFirefox, psTracupbot, psCoding, psBitbucket,
+  psMiniProgram, psCodefever, psChrome, psGithub, psFirefox, psTracupbot, psCoding, psBitbucket, psPublicShare,
 
   // line frame icon
   plMemberSmall, plMemberAlt, plMember, plMemberAdd, plMemberAssignee, plMemberFollow, plMemberInfo,

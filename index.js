@@ -140,6 +140,7 @@ import plSubtaskData from './icons/plSubtask'
 import plBoldData from './icons/plBold'
 import plCooperateData from './icons/plCooperate'
 import plImageData from './icons/plImage'
+import plCoverData from './icons/plCover'
 import plFontData from './icons/plFont'
 import plConfirmData from './icons/plConfirm'
 import plAlignCenterData from './icons/plAlignCenter'
@@ -255,6 +256,7 @@ import plOperationData from './icons/plOperation'
 import plNailData from './icons/plNail'
 import plPrintData from './icons/plPrint'
 import plEmailAddData from './icons/plEmailAdd'
+import plEmojiData from './icons/plEmoji'
 
 // colored icon
 import pcPgyerData from './icons/pcPgyer'
@@ -455,6 +457,7 @@ const plSubtask = warpper(...plSubtaskData)
 const plBold = warpper(...plBoldData)
 const plCooperate = warpper(...plCooperateData)
 const plImage = warpper(...plImageData)
+const plCover = warpper(...plCoverData)
 const plFont = warpper(...plFontData)
 const plConfirm = warpper(...plConfirmData)
 const plAlignCenter = warpper(...plAlignCenterData)
@@ -571,6 +574,7 @@ const plOperation = warpper(...plOperationData)
 const plNail = warpper(...plNailData)
 const plPrint = warpper(...plPrintData)
 const plEmailAdd = warpper(...plEmailAddData)
+const plEmoji = warpper(...plEmojiData)
 
 const pcPgyer = warpperColor(...pcPgyerData)
 const pcTracup = warpperColor(...pcTracupData)
@@ -639,11 +643,11 @@ export {
   plStar, plExit, plPosition, plMenuCollapse, plDirCollapse, plDashboard, plView, plGantt, plSubtask, plOverview,
   plTable, plTableComponent, plModel, plPage, plWeb, plReturn, plWebhook, plWorkspace, plShowModel, plAll, plSigma, plRepository,
   plRepo, plDomain, plLocalization, plLangEn, plLangZh, plDraft, plComment, plChat, plChatCircle,
-  plReaded, plReadedSquare, plTicket, plTrade, plImage, plMemo, plCertificate, plKey, plLock,
+  plReaded, plReadedSquare, plTicket, plTrade, plImage, plCover, plMemo, plCertificate, plKey, plLock,
   plCalendar, plClock, plClockRing, plCreateTime, plDeadline, plStartTime, plUpdateTime, plSpeaker,
   plBell, plBellSmall, plEye, plHide, plFace, plPrivacy, plMiniProgram, plAndroid, plIOS, plPHP, plCocos,
   plRobot, plRevert, plBackup, plAccess, plBuy, plQrcode, plOpen, plIntegrated, plCustom, plCustomField,
-  plDragMerge, plCase, plSoftware, plTemplate, plOperation, plNail, plPrint, plEmailAdd,
+  plDragMerge, plCase, plSoftware, plTemplate, plOperation, plNail, plPrint, plEmailAdd, plEmoji,
 
   // colored icon
   pcPgyer, pcTracup, pcFrontJS, pcCodeFever, pcSeed,

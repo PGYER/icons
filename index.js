@@ -68,6 +68,11 @@ import psEmailData from './icons/psEmail'
 import psKeyData from './icons/psKey'
 import psLockData from './icons/psLock'
 import psPublicShareData from './icons/psPublicShare'
+import psWeiboData from './icons/psWeibo'
+import psWechatData from './icons/psWechat'
+import psFacebookData from './icons/psFacebook'
+import psTwitterData from './icons/psTwitter'
+import psWhatsAppData from './icons/psWhatsApp'
 
 // line frame icon
 import plRepositoryData from './icons/plRepository'
@@ -257,6 +262,8 @@ import plNailData from './icons/plNail'
 import plPrintData from './icons/plPrint'
 import plEmailAddData from './icons/plEmailAdd'
 import plEmojiData from './icons/plEmoji'
+import plBrandData from './icons/plBrand'
+import plBlankDocData from './icons/plBlankDoc'
 
 // colored icon
 import pcPgyerData from './icons/pcPgyer'
@@ -385,6 +392,11 @@ const psEmail = warpper(...psEmailData)
 const psKey = warpper(...psKeyData)
 const psLock = warpper(...psLockData)
 const psPublicShare = warpper(...psPublicShareData)
+const psWeibo = warpper(...psWeiboData)
+const psWechat = warpper(...psWechatData)
+const psFacebook = warpper(...psFacebookData)
+const psTwitter = warpper(...psTwitterData)
+const psWhatsApp = warpper(...psWhatsAppData)
 
 // line frame icon
 const plRepository = warpper(...plRepositoryData)
@@ -575,6 +587,8 @@ const plNail = warpper(...plNailData)
 const plPrint = warpper(...plPrintData)
 const plEmailAdd = warpper(...plEmailAddData)
 const plEmoji = warpper(...plEmojiData)
+const plBrand = warpper(...plBrandData)
+const plBlankDoc = warpper(...plBlankDocData)
 
 const pcPgyer = warpperColor(...pcPgyerData)
 const pcTracup = warpperColor(...pcTracupData)
@@ -626,6 +640,7 @@ export {
   psHome, psCaretDown, psSetting, psTrash, psMore, psNail,
   psTag, psMerge, psCommit, psBranch, psComment, psKey, psLock,
   psMiniProgram, psCodefever, psChrome, psGithub, psFirefox, psTracupbot, psCoding, psBitbucket, psPublicShare,
+  psWeibo, psWechat, psFacebook, psTwitter, psWhatsApp,
 
   // line frame icon
   plMemberSmall, plMemberAlt, plMember, plMemberAdd, plMemberAssignee, plMemberFollow, plMemberInfo,
@@ -647,8 +662,8 @@ export {
   plCalendar, plClock, plClockRing, plCreateTime, plDeadline, plStartTime, plUpdateTime, plSpeaker,
   plBell, plBellSmall, plEye, plHide, plFace, plPrivacy, plMiniProgram, plAndroid, plIOS, plPHP, plCocos,
   plRobot, plRevert, plBackup, plAccess, plBuy, plQrcode, plOpen, plIntegrated, plCustom, plCustomField,
-  plDragMerge, plCase, plSoftware, plTemplate, plOperation, plNail, plPrint, plEmailAdd, plEmoji,
-
+  plDragMerge, plCase, plSoftware, plTemplate, plOperation, plNail, plPrint, plEmailAdd, plEmoji, plBrand,
+  plBlankDoc,
   // colored icon
   pcPgyer, pcTracup, pcFrontJS, pcCodeFever, pcSeed,
   pcApple, pcTestFlight, pcFigma, pcTencentVideo, pcSlack, pcNeteaseMusic, pcTwitter, pcCodepen,

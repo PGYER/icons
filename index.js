@@ -114,6 +114,7 @@ import plAngleUpData from './icons/plAngleUp'
 import plAtData from './icons/plAt'
 import plTextData from './icons/plText'
 import plNumberData from './icons/plNumber'
+import plSelectData from './icons/plSelect'
 import plAngleRightData from './icons/plAngleRight'
 import plAngleRightSquareData from './icons/plAngleRightSquare'
 import plAngleDownData from './icons/plAngleDown'
@@ -155,6 +156,7 @@ import plUnknownFileData from './icons/plUnknownFile'
 import plUndoData from './icons/plUndo'
 import plMemoData from './icons/plMemo'
 import plMemberSettingData from './icons/plMemberSetting'
+import plMemberCommentData from './icons/plMemberComment'
 import plMemberSmallData from './icons/plMemberSmall'
 import plRepairData from './icons/plRepair'
 import plScrollData from './icons/plScroll'
@@ -264,6 +266,9 @@ import plEmailAddData from './icons/plEmailAdd'
 import plEmojiData from './icons/plEmoji'
 import plBrandData from './icons/plBrand'
 import plBlankDocData from './icons/plBlankDoc'
+import plSharpData from './icons/plSharp'
+import plThumbUpData from './icons/plThumbUp'
+import plCommandData from './icons/plCommand'
 
 // colored icon
 import pcPgyerData from './icons/pcPgyer'
@@ -438,6 +443,7 @@ const plAngleUp = warpper(...plAngleUpData)
 const plAt = warpper(...plAtData)
 const plText = warpper(...plTextData)
 const plNumber = warpper(...plNumberData)
+const plSelect = warpper(...plSelectData)
 const plAngleRight = warpper(...plAngleRightData)
 const plAngleRightSquare = warpper(...plAngleRightSquareData)
 const plAngleDown = warpper(...plAngleDownData)
@@ -479,6 +485,7 @@ const plUnknownFile = warpper(...plUnknownFileData)
 const plUndo = warpper(...plUndoData)
 const plMemo = warpper(...plMemoData)
 const plMemberSetting = warpper(...plMemberSettingData)
+const plMemberComment = warpper(...plMemberCommentData)
 const plMemberSmall = warpper(...plMemberSmallData)
 const plRepair = warpper(...plRepairData)
 const plScroll = warpper(...plScrollData)
@@ -589,6 +596,9 @@ const plEmailAdd = warpper(...plEmailAddData)
 const plEmoji = warpper(...plEmojiData)
 const plBrand = warpper(...plBrandData)
 const plBlankDoc = warpper(...plBlankDocData)
+const plSharp = warpper(...plSharpData)
+const plThumbUp = warpper(...plThumbUpData)
+const plCommand = warpper(...plCommandData)
 
 const pcPgyer = warpperColor(...pcPgyerData)
 const pcTracup = warpperColor(...pcTracupData)
@@ -644,12 +654,12 @@ export {
 
   // line frame icon
   plMemberSmall, plMemberAlt, plMember, plMemberAdd, plMemberAssignee, plMemberFollow, plMemberInfo,
-  plMemberRole, plMemberSetting, plFile, plFileCheck, plCodeFile, plUnknownFile, plOrder,
+  plMemberRole, plMemberSetting, plMemberComment, plFile, plFileCheck, plCodeFile, plUnknownFile, plOrder,
   plUpload, plBook, plFolder, plFolderAdd, plFolderRemove, plBookMarkFolder, plFolderArchive,
   plAdd, plAddAlt, plRepeat, plZoomIn, plZoomOut, plCheck, plConfirm, plCheckbox, plSafe, plSafeSquare, plMerged,
   plClose, plCloseCircle, plHelp, plWarning, plForbid, plAngleUp, plAngleRight, plAngleRightSquare,
   plAngleDown, plAngleLeft, plList, plOrderList, plNumberList, plListSquare, plListView,
-  plSettingAlt, plContent, plAlignCenter, plAlignRight, plAlignLeft, plAt, plText, plNumber, plUnderline, plSource,
+  plSettingAlt, plContent, plAlignCenter, plAlignRight, plAlignLeft, plAt, plText, plNumber, plSelect, plUnderline, plSource,
   plStrike, plBold, plItalic, plFont, plFontColor, plHeader1, plHeader2, plHeader3, plQuote, plLink,
   plAttachment, plUnlink, plMinimize, plFull, plFullScreen, plUploads, plDownload, plCloudUp, plMoveIn, plMoveOut,
   plBranch, plType, plMerge, plCommit, plTag, plFork, plVersion, plPriority, plModule, plStatus, plDependence,
@@ -663,7 +673,7 @@ export {
   plBell, plBellSmall, plEye, plHide, plFace, plPrivacy, plMiniProgram, plAndroid, plIOS, plPHP, plCocos,
   plRobot, plRevert, plBackup, plAccess, plBuy, plQrcode, plOpen, plIntegrated, plCustom, plCustomField,
   plDragMerge, plCase, plSoftware, plTemplate, plOperation, plNail, plPrint, plEmailAdd, plEmoji, plBrand,
-  plBlankDoc,
+  plBlankDoc, plSharp, plThumbUp, plCommand,
   // colored icon
   pcPgyer, pcTracup, pcFrontJS, pcCodeFever, pcSeed,
   pcApple, pcTestFlight, pcFigma, pcTencentVideo, pcSlack, pcNeteaseMusic, pcTwitter, pcCodepen,

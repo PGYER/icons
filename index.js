@@ -272,6 +272,7 @@ import plCommandData from './icons/plCommand'
 import plSwitchData from './icons/plSwitch'
 import plProgressData from './icons/plProgress'
 import plCurrencyData from './icons/plCurrency'
+import plWhiteboardData from './icons/plWhiteboard'
 
 // colored icon
 import pcPgyerData from './icons/pcPgyer'
@@ -605,6 +606,7 @@ const plCommand = warpper(...plCommandData)
 const plSwitch = warpper(...plSwitchData)
 const plProgress = warpper(...plProgressData)
 const plCurrency = warpper(...plCurrencyData)
+const plWhiteboard = warpper(...plWhiteboardData)
 
 const pcPgyer = warpperColor(...pcPgyerData)
 const pcTracup = warpperColor(...pcTracupData)
@@ -679,7 +681,7 @@ export {
   plBell, plBellSmall, plEye, plHide, plFace, plPrivacy, plMiniProgram, plAndroid, plIOS, plPHP, plCocos,
   plRobot, plRevert, plBackup, plAccess, plBuy, plQrcode, plOpen, plIntegrated, plCustom, plCustomField,
   plDragMerge, plCase, plSoftware, plTemplate, plOperation, plNail, plPrint, plEmailAdd, plEmoji, plBrand,
-  plBlankDoc, plSharp, plThumbUp, plCommand, plSwitch, plProgress, plCurrency,
+  plBlankDoc, plSharp, plThumbUp, plCommand, plSwitch, plProgress, plCurrency, plWhiteboard,
   // colored icon
   pcPgyer, pcTracup, pcFrontJS, pcCodeFever, pcSeed,
   pcApple, pcTestFlight, pcFigma, pcTencentVideo, pcSlack, pcNeteaseMusic, pcTwitter, pcCodepen,

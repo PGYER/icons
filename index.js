@@ -73,6 +73,7 @@ import psWechatData from './icons/psWechat'
 import psFacebookData from './icons/psFacebook'
 import psTwitterData from './icons/psTwitter'
 import psWhatsAppData from './icons/psWhatsApp'
+import psNoteAssignData from './icons/psNoteAssign'
 
 // line frame icon
 import plRepositoryData from './icons/plRepository'
@@ -406,6 +407,7 @@ const psWechat = warpper(...psWechatData)
 const psFacebook = warpper(...psFacebookData)
 const psTwitter = warpper(...psTwitterData)
 const psWhatsApp = warpper(...psWhatsAppData)
+const psNoteAssign = warpper(...psNoteAssignData)
 
 // line frame icon
 const plRepository = warpper(...plRepositoryData)
@@ -658,7 +660,7 @@ export {
   psHome, psCaretDown, psSetting, psTrash, psMore, psNail,
   psTag, psMerge, psCommit, psBranch, psComment, psKey, psLock,
   psMiniProgram, psCodefever, psChrome, psGithub, psFirefox, psTracupbot, psCoding, psBitbucket, psPublicShare,
-  psWeibo, psWechat, psFacebook, psTwitter, psWhatsApp,
+  psWeibo, psWechat, psFacebook, psTwitter, psWhatsApp, psNoteAssign,
 
   // line frame icon
   plMemberSmall, plMemberAlt, plMember, plMemberAdd, plMemberAssignee, plMemberFollow, plMemberInfo,

@@ -74,6 +74,7 @@ import psFacebookData from './icons/psFacebook'
 import psTwitterData from './icons/psTwitter'
 import psWhatsAppData from './icons/psWhatsApp'
 import psNoteAssignData from './icons/psNoteAssign'
+import psTemplateData from './icons/psTemplate'
 
 // line frame icon
 import plRepositoryData from './icons/plRepository'
@@ -274,6 +275,9 @@ import plSwitchData from './icons/plSwitch'
 import plProgressData from './icons/plProgress'
 import plCurrencyData from './icons/plCurrency'
 import plWhiteboardData from './icons/plWhiteboard'
+import plArchitectureData from './icons/plArchitecture'
+import plFlowData from './icons/plFlow'
+import plIconData from './icons/plIcon'
 
 // colored icon
 import pcPgyerData from './icons/pcPgyer'
@@ -408,6 +412,7 @@ const psFacebook = warpper(...psFacebookData)
 const psTwitter = warpper(...psTwitterData)
 const psWhatsApp = warpper(...psWhatsAppData)
 const psNoteAssign = warpper(...psNoteAssignData)
+const psTemplate = warpper(...psTemplateData)
 
 // line frame icon
 const plRepository = warpper(...plRepositoryData)
@@ -609,6 +614,9 @@ const plSwitch = warpper(...plSwitchData)
 const plProgress = warpper(...plProgressData)
 const plCurrency = warpper(...plCurrencyData)
 const plWhiteboard = warpper(...plWhiteboardData)
+const plArchitecture = warpper(...plArchitectureData)
+const plFlow = warpper(...plFlowData)
+const plIcon = warpper(...plIconData)
 
 const pcPgyer = warpperColor(...pcPgyerData)
 const pcTracup = warpperColor(...pcTracupData)
@@ -660,7 +668,7 @@ export {
   psHome, psCaretDown, psSetting, psTrash, psMore, psNail,
   psTag, psMerge, psCommit, psBranch, psComment, psKey, psLock,
   psMiniProgram, psCodefever, psChrome, psGithub, psFirefox, psTracupbot, psCoding, psBitbucket, psPublicShare,
-  psWeibo, psWechat, psFacebook, psTwitter, psWhatsApp, psNoteAssign,
+  psWeibo, psWechat, psFacebook, psTwitter, psWhatsApp, psNoteAssign, psTemplate,
 
   // line frame icon
   plMemberSmall, plMemberAlt, plMember, plMemberAdd, plMemberAssignee, plMemberFollow, plMemberInfo,
@@ -683,7 +691,7 @@ export {
   plBell, plBellSmall, plEye, plHide, plFace, plPrivacy, plMiniProgram, plAndroid, plIOS, plPHP, plCocos,
   plRobot, plRevert, plBackup, plAccess, plBuy, plQrcode, plOpen, plIntegrated, plCustom, plCustomField,
   plDragMerge, plCase, plSoftware, plTemplate, plOperation, plNail, plPrint, plEmailAdd, plEmoji, plBrand,
-  plBlankDoc, plSharp, plThumbUp, plCommand, plSwitch, plProgress, plCurrency, plWhiteboard,
+  plBlankDoc, plSharp, plThumbUp, plCommand, plSwitch, plProgress, plCurrency, plWhiteboard, plArchitecture, plFlow, plIcon,
   // colored icon
   pcPgyer, pcTracup, pcFrontJS, pcCodeFever, pcSeed,
   pcApple, pcTestFlight, pcFigma, pcTencentVideo, pcSlack, pcNeteaseMusic, pcTwitter, pcCodepen,

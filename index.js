@@ -54,6 +54,11 @@ import psCalendarData from './icons/psCalendar'
 import psBoxData from './icons/psBox'
 import psAlarmData from './icons/psAlarm'
 import psChartData from './icons/psChart'
+import psChartBarData from './icons/psChartBar'
+import psChartColumnData from './icons/psChartColumn'
+import psChartPieData from './icons/psChartPie'
+import psChartTimeData from './icons/psChartTime'
+import psChartReportData from './icons/psChartReport'
 import psCloudCheckData from './icons/psCloudCheck'
 import psCodefeverData from './icons/psCodefever'
 import psCodingData from './icons/psCoding'
@@ -394,6 +399,11 @@ const psCalendar = warpper(...psCalendarData)
 const psBox = warpper(...psBoxData)
 const psAlarm = warpper(...psAlarmData)
 const psChart = warpper(...psChartData)
+const psChartBar = warpper(...psChartBarData)
+const psChartColumn = warpper(...psChartColumnData)
+const psChartPie = warpper(...psChartPieData)
+const psChartTime = warpper(...psChartTimeData)
+const psChartReport = warpper(...psChartReportData)
 const psCloudCheck = warpper(...psCloudCheckData)
 const psCodefever = warpper(...psCodefeverData)
 const psCoding = warpper(...psCodingData)
@@ -668,7 +678,7 @@ export {
   psExclamationTriangle, psAlarm, psBell, psNewFeature, psCalendar, psClock, psClockRing,
   psTicket, psCreditCards, psWallet, psConsume, psCoupon, psChip, psShoppingCart,
   psRepository, psRepositoryGroup, psOverview, psContent, psBox, psEmail,
-  psChart, psPieChart, psMeter, psStar, psPriority, psPlay, psPause,
+  psChart, psChartBar, psChartColumn, psChartPie, psChartTime, psChartReport, psPieChart, psMeter, psStar, psPriority, psPlay, psPause,
   psHome, psCaretDown, psSetting, psTrash, psMore, psNail,
   psTag, psMerge, psCommit, psBranch, psComment, psKey, psLock,
   psMiniProgram, psCodefever, psChrome, psGithub, psFirefox, psTracupbot, psCoding, psBitbucket, psPublicShare,

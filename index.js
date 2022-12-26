@@ -255,6 +255,7 @@ import plRobotData from './icons/plRobot'
 import plForbidData from './icons/plForbid'
 import plRevertData from './icons/plRevert'
 import plBackupData from './icons/plBackup'
+import plBackData from './icons/plBack'
 import plAccessData from './icons/plAccess'
 import plBuyData from './icons/plBuy'
 import plQrcodeData from './icons/plQrcode'
@@ -603,6 +604,7 @@ const plRobot = warpper(...plRobotData)
 const plForbid = warpper(...plForbidData)
 const plRevert = warpper(...plRevertData)
 const plBackup = warpper(...plBackupData)
+const plBack = warpper(...plBackData)
 const plAccess = warpper(...plAccessData)
 const plBuy = warpper(...plBuyData)
 const plQrcode = warpper(...plQrcodeData)
@@ -707,7 +709,7 @@ export {
   plReaded, plReadedSquare, plTicket, plTrade, plImage, plCover, plMemo, plCertificate, plKey, plLock,
   plCalendar, plClock, plClockRing, plCreateTime, plDeadline, plStartTime, plUpdateTime, plSpeaker,
   plBell, plBellSmall, plEye, plHide, plFace, plPrivacy, plMiniProgram, plAndroid, plIOS, plPHP, plCocos,
-  plRobot, plRevert, plBackup, plAccess, plBuy, plQrcode, plOpen, plIntegrated, plCustom, plCustomField,
+  plRobot, plRevert, plBackup, plBack, plAccess, plBuy, plQrcode, plOpen, plIntegrated, plCustom, plCustomField,
   plDragMerge, plCase, plSoftware, plTemplate, plOperation, plNail, plPrint, plEmailAdd, plEmail, plEmoji, plBrand,
   plBlankDoc, plSharp, plThumbUp, plCommand, plSwitch, plProgress, plCurrency, plWhiteboard, plArchitecture, plFlow, plIcon, plStatistic,
   plAssociate, plUpgrade,

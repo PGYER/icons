@@ -270,6 +270,7 @@ import plOperationData from './icons/plOperation'
 import plNailData from './icons/plNail'
 import plPrintData from './icons/plPrint'
 import plEmailAddData from './icons/plEmailAdd'
+import plEmailData from './icons/plEmail'
 import plEmojiData from './icons/plEmoji'
 import plBrandData from './icons/plBrand'
 import plBlankDocData from './icons/plBlankDoc'
@@ -617,6 +618,7 @@ const plOperation = warpper(...plOperationData)
 const plNail = warpper(...plNailData)
 const plPrint = warpper(...plPrintData)
 const plEmailAdd = warpper(...plEmailAddData)
+const plEmail = warpper(...plEmailData)
 const plEmoji = warpper(...plEmojiData)
 const plBrand = warpper(...plBrandData)
 const plBlankDoc = warpper(...plBlankDocData)
@@ -706,7 +708,7 @@ export {
   plCalendar, plClock, plClockRing, plCreateTime, plDeadline, plStartTime, plUpdateTime, plSpeaker,
   plBell, plBellSmall, plEye, plHide, plFace, plPrivacy, plMiniProgram, plAndroid, plIOS, plPHP, plCocos,
   plRobot, plRevert, plBackup, plAccess, plBuy, plQrcode, plOpen, plIntegrated, plCustom, plCustomField,
-  plDragMerge, plCase, plSoftware, plTemplate, plOperation, plNail, plPrint, plEmailAdd, plEmoji, plBrand,
+  plDragMerge, plCase, plSoftware, plTemplate, plOperation, plNail, plPrint, plEmailAdd, plEmail, plEmoji, plBrand,
   plBlankDoc, plSharp, plThumbUp, plCommand, plSwitch, plProgress, plCurrency, plWhiteboard, plArchitecture, plFlow, plIcon, plStatistic,
   plAssociate, plUpgrade,
   // colored icon

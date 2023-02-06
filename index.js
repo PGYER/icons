@@ -328,6 +328,8 @@ import pcGoogleCalendarData from './icons/pcGoogleCalendar'
 import pcGoogleDocData from './icons/pcGoogleDoc'
 import pcGoogleSheetData from './icons/pcGoogleSheet'
 import pcMaXiangData from './icons/pcMaXiang'
+import pcBoxData from './icons/pcBox'
+import pcOneDriveData from './icons/pcOneDrive'
 
 // icon contaienr
 import PIcon from './container/PIcon'
@@ -678,6 +680,8 @@ const pcGoogleCalendar = warpperColor(...pcGoogleCalendarData)
 const pcGoogleDoc = warpperColor(...pcGoogleDocData)
 const pcGoogleSheet = warpperColor(...pcGoogleSheetData)
 const pcMaXiang = warpperColor(...pcMaXiangData)
+const pcBox = warpperColor(...pcBoxData)
+const pcOneDrive = warpperColor(...pcOneDriveData)
 
 export {
   // solid icon
@@ -722,7 +726,8 @@ export {
   pcApple, pcTestFlight, pcFigma, pcTencentVideo, pcSlack, pcNeteaseMusic, pcTwitter, pcCodepen,
   pcYoutube, pcJinshuju, pcGithub, pcTencentMeeting, pcSeaTable, pcLoom, pcGoogleDrive,
   pcTencentWJ, pcZoom, pcAirTable, pcMasterGo, pcProcessOn, pcYouku, pcShimo, pcModao,
-  pcBilibili, pcDropbox, pcLanhu, pcOffice, pcGoogleCalendar, pcGoogleDoc, pcGoogleSheet, pcMaXiang,
+  pcBilibili, pcDropbox, pcLanhu, pcOffice, pcGoogleCalendar, pcGoogleDoc, pcGoogleSheet, pcMaXiang, pcBox,
+  pcOneDrive,
 
   // icon container
   PIcon

@@ -291,6 +291,12 @@ import plUpgradeData from './icons/plUpgrade'
 import plSelectColorData from './icons/plSelectColor'
 import plGoalData from './icons/plGoal'
 import plAIData from './icons/plAI'
+import plFocusTextData from './icons/plFocusText'
+import plWriteData from './icons/plWrite'
+import plSendData from './icons/plSend'
+import plSummarizeData from './icons/plSummarize'
+import plChangeData from './icons/plChange'
+import plTranslateData from './icons/plTranslate'
 
 // colored icon
 import pcPgyerData from './icons/pcPgyer'
@@ -645,6 +651,12 @@ const plUpgrade = warpper(...plUpgradeData)
 const plSelectColor = warpper(...plSelectColorData)
 const plGoal = warpper(...plGoalData)
 const plAI = warpper(...plAIData)
+const plFocusText = warpper(...plFocusTextData)
+const plWrite = warpper(...plWriteData)
+const plSend = warpper(...plSendData)
+const plSummarize = warpper(...plSummarizeData)
+const plChange = warpper(...plChangeData)
+const plTranslate = warpper(...plTranslateData)
 
 const pcPgyer = warpperColor(...pcPgyerData)
 const pcTracup = warpperColor(...pcTracupData)
@@ -694,42 +706,50 @@ export {
   psExclamationTriangle, psAlarm, psBell, psNewFeature, psCalendar, psClock, psClockRing,
   psTicket, psCreditCards, psWallet, psConsume, psCoupon, psChip, psShoppingCart,
   psRepository, psRepositoryGroup, psOverview, psContent, psBox, psEmail,
-  psChart, psChartBar, psChartColumn, psChartPie, psChartTime, psChartReport, psPieChart, psMeter, psStar, psPriority, psPlay, psPause,
-  psHome, psCaretDown, psSetting, psTrash, psMore, psNail,
-  psTag, psMerge, psCommit, psBranch, psComment, psKey, psLock,
-  psMiniProgram, psCodefever, psChrome, psGithub, psFirefox, psTracupbot, psCoding, psBitbucket, psPublicShare,
-  psWeibo, psWechat, psFacebook, psTwitter, psWhatsApp, psNoteAssign, psTemplate,
+  psChart, psChartBar, psChartColumn, psChartPie, psChartTime, psChartReport, psPieChart,
+  psMeter, psStar, psPriority, psPlay, psPause, psHome, psCaretDown, psSetting, psTrash,
+  psMore, psNail, psTag, psMerge, psCommit, psBranch, psComment, psKey, psLock,
+  psMiniProgram, psCodefever, psChrome, psGithub, psFirefox, psTracupbot, psCoding,
+  psBitbucket, psPublicShare, psWeibo, psWechat, psFacebook, psTwitter, psWhatsApp,
+  psNoteAssign, psTemplate,
 
   // line frame icon
-  plMemberSmall, plMemberAlt, plMember, plMemberAdd, plMemberAssignee, plMemberFollow, plMemberInfo,
-  plMemberRole, plMemberSetting, plMemberComment, plFile, plFileCheck, plCodeFile, plUnknownFile, plOrder,
-  plUpload, plBook, plFolder, plFolderAdd, plFolderRemove, plBookMarkFolder, plFolderArchive,
-  plAdd, plAddAlt, plRepeat, plZoomIn, plZoomOut, plCheck, plConfirm, plCheckbox, plSafe, plSafeSquare, plMerged,
-  plClose, plCloseCircle, plHelp, plWarning, plForbid, plAngleUp, plAngleRight, plAngleRightSquare,
+  plMemberSmall, plMemberAlt, plMember, plMemberAdd, plMemberAssignee, plMemberFollow,
+  plMemberInfo, plMemberRole, plMemberSetting, plMemberComment, plFile, plFileCheck,
+  plCodeFile, plUnknownFile, plOrder, plUpload, plBook, plFolder, plFolderAdd,
+  plFolderRemove, plBookMarkFolder, plFolderArchive, plAdd, plAddAlt, plRepeat, plZoomIn,
+  plZoomOut, plCheck, plConfirm, plCheckbox, plSafe, plSafeSquare, plMerged, plClose,
+  plCloseCircle, plHelp, plWarning, plForbid, plAngleUp, plAngleRight, plAngleRightSquare,
   plAngleDown, plAngleLeft, plList, plOrderList, plNumberList, plListSquare, plListView,
-  plSettingAlt, plContent, plAlignCenter, plAlignRight, plAlignLeft, plAt, plText, plNumber, plSelect, plUnderline, plSource,
-  plStrike, plBold, plItalic, plFont, plFontColor, plHeader1, plHeader2, plHeader3, plQuote, plLink,
-  plAttachment, plUnlink, plMinimize, plFull, plFullScreen, plUploads, plDownload, plCloudUp, plMoveIn, plMoveOut,
-  plBranch, plType, plMerge, plCommit, plTag, plFork, plVersion, plPriority, plModule, plStatus, plDependence,
-  plSearch, plSortDesc, plFilter, plCopy, plEdit, plPencil, plPicker, plTrash, plSave, plImport,
-  plSetting, plShare, plCooperate, plUndo, plRepair, plScroll, plDrag, plExpand, plUpdateLog, plPartake,
-  plStar, plExit, plPosition, plMenuCollapse, plDirCollapse, plDashboard, plView, plGantt, plSubtask, plOverview,
-  plTable, plTableComponent, plModel, plPage, plWeb, plReturn, plWebhook, plWorkspace, plShowModel, plAll, plSigma, plRepository,
-  plRepo, plDomain, plLocalization, plLangEn, plLangZh, plDraft, plComment, plChat, plChatCircle,
-  plReaded, plReadedSquare, plTicket, plTrade, plImage, plCover, plMemo, plCertificate, plKey, plLock,
-  plCalendar, plClock, plClockRing, plCreateTime, plDeadline, plStartTime, plUpdateTime, plSpeaker,
-  plBell, plBellSmall, plEye, plHide, plFace, plPrivacy, plMiniProgram, plAndroid, plIOS, plPHP, plCocos,
-  plRobot, plRevert, plBackup, plBack, plAccess, plBuy, plQrcode, plOpen, plIntegrated, plCustom, plCustomField,
-  plDragMerge, plCase, plSoftware, plTemplate, plOperation, plNail, plPrint, plEmailAdd, plEmail, plEmoji, plBrand,
-  plBlankDoc, plSharp, plThumbUp, plCommand, plSwitch, plProgress, plCurrency, plWhiteboard, plArchitecture, plFlow, plIcon, plStatistic,
-  plAssociate, plUpgrade, plSelectColor, plGoal, plAI,
+  plSettingAlt, plContent, plAlignCenter, plAlignRight, plAlignLeft, plAt, plText,
+  plNumber, plSelect, plUnderline, plSource, plStrike, plBold, plItalic, plFont,
+  plFontColor, plHeader1, plHeader2, plHeader3, plQuote, plLink, plAttachment, plUnlink,
+  plMinimize, plFull, plFullScreen, plUploads, plDownload, plCloudUp, plMoveIn, plMoveOut,
+  plBranch, plType, plMerge, plCommit, plTag, plFork, plVersion, plPriority, plModule,
+  plStatus, plDependence, plSearch, plSortDesc, plFilter, plCopy, plEdit, plPencil,
+  plPicker, plTrash, plSave, plImport, plSetting, plShare, plCooperate, plUndo, plRepair,
+  plScroll, plDrag, plExpand, plUpdateLog, plPartake, plStar, plExit, plPosition,
+  plMenuCollapse, plDirCollapse, plDashboard, plView, plGantt, plSubtask, plOverview,
+  plTable, plTableComponent, plModel, plPage, plWeb, plReturn, plWebhook, plWorkspace,
+  plShowModel, plAll, plSigma, plRepository, plRepo, plDomain, plLocalization, plLangEn,
+  plLangZh, plDraft, plComment, plChat, plChatCircle, plReaded, plReadedSquare, plTicket,
+  plTrade, plImage, plCover, plMemo, plCertificate, plKey, plLock, plCalendar, plClock,
+  plClockRing, plCreateTime, plDeadline, plStartTime, plUpdateTime, plSpeaker, plBell,
+  plBellSmall, plEye, plHide, plFace, plPrivacy, plMiniProgram, plAndroid, plIOS, plPHP,
+  plCocos, plRobot, plRevert, plBackup, plBack, plAccess, plBuy, plQrcode, plOpen,
+  plIntegrated, plCustom, plCustomField, plDragMerge, plCase, plSoftware, plTemplate,
+  plOperation, plNail, plPrint, plEmailAdd, plEmail, plEmoji, plBrand, plBlankDoc,
+  plSharp, plThumbUp, plCommand, plSwitch, plProgress, plCurrency, plWhiteboard,
+  plArchitecture, plFlow, plIcon, plStatistic, plAssociate, plUpgrade, plSelectColor,
+  plGoal, plAI, plFocusText, plWrite, plSend, plSummarize, plChange, plTranslate,
+
   // colored icon
   pcPgyer, pcTracup, pcFrontJS, pcCodeFever, pcSeed,
-  pcApple, pcTestFlight, pcFigma, pcTencentVideo, pcSlack, pcNeteaseMusic, pcTwitter, pcCodepen,
-  pcYoutube, pcJinshuju, pcGithub, pcTencentMeeting, pcSeaTable, pcLoom, pcGoogleDrive,
-  pcTencentWJ, pcZoom, pcAirTable, pcMasterGo, pcProcessOn, pcYouku, pcShimo, pcModao,
-  pcBilibili, pcDropbox, pcLanhu, pcOffice, pcGoogleCalendar, pcGoogleDoc, pcGoogleSheet, pcMaXiang, pcBox,
-  pcOneDrive,
+  pcApple, pcTestFlight, pcFigma, pcTencentVideo, pcSlack, pcNeteaseMusic, pcTwitter,
+  pcCodepen, pcYoutube, pcJinshuju, pcGithub, pcTencentMeeting, pcSeaTable, pcLoom,
+  pcGoogleDrive, pcTencentWJ, pcZoom, pcAirTable, pcMasterGo, pcProcessOn, pcYouku,
+  pcShimo, pcModao, pcBilibili, pcDropbox, pcLanhu, pcOffice, pcGoogleCalendar,
+  pcGoogleDoc, pcGoogleSheet, pcMaXiang, pcBox, pcOneDrive,
 
   // icon container
   PIcon

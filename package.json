@@ -1,9 +1,8 @@
 {
   "name": "@pgyer/icons",
-  "version": "0.1.43",
+  "version": "0.1.44",
   "description": "icons for pgyer's project",
   "main": "index.js",
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/PGYER/icons.git"

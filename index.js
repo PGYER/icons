@@ -300,6 +300,7 @@ import plSendData from './icons/plSend'
 import plSummarizeData from './icons/plSummarize'
 import plChangeData from './icons/plChange'
 import plTranslateData from './icons/plTranslate'
+import plDiamondData from './icons/plDiamond'
 
 // colored icon
 import pcPgyerData from './icons/pcPgyer'
@@ -663,6 +664,7 @@ const plSend = warpper(...plSendData)
 const plSummarize = warpper(...plSummarizeData)
 const plChange = warpper(...plChangeData)
 const plTranslate = warpper(...plTranslateData)
+const plDiamond = warpper(...plDiamondData)
 
 const pcPgyer = warpperColor(...pcPgyerData)
 const pcTracup = warpperColor(...pcTracupData)
@@ -748,7 +750,7 @@ export {
   plPrint, plEmailAdd, plEmail, plEmoji, plBrand, plBlankDoc, plSharp, plThumbUp,
   plCommand, plSwitch, plProgress, plCurrency, plWhiteboard, plArchitecture, plFlow,
   plIcon, plStatistic, plAssociate, plUpgrade, plSelectColor, plGoal, plAI, plFocusText,
-  plWrite, plSend, plSummarize, plChange, plTranslate,
+  plWrite, plSend, plSummarize, plChange, plTranslate, plDiamond,
 
   // colored icon
   pcPgyer, pcTracup, pcFrontJS, pcCodeFever, pcSeed,

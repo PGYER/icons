@@ -226,6 +226,9 @@ import plFontColorData from './icons/plFontColor'
 import plHeader1Data from './icons/plHeader1'
 import plHeader2Data from './icons/plHeader2'
 import plHeader3Data from './icons/plHeader3'
+import plHeader4Data from './icons/plHeader4'
+import plHeader5Data from './icons/plHeader5'
+import plHeader6Data from './icons/plHeader6'
 import plQuoteData from './icons/plQuote'
 import plReadedData from './icons/plReaded'
 import plReadedSquareData from './icons/plReadedSquare'
@@ -586,6 +589,9 @@ const plFontColor = warpper(...plFontColorData)
 const plHeader1 = warpper(...plHeader1Data)
 const plHeader2 = warpper(...plHeader2Data)
 const plHeader3 = warpper(...plHeader3Data)
+const plHeader4 = warpper(...plHeader4Data)
+const plHeader5 = warpper(...plHeader5Data)
+const plHeader6 = warpper(...plHeader6Data)
 const plQuote = warpper(...plQuoteData)
 const plReaded = warpper(...plReadedData)
 const plReadedSquare = warpper(...plReadedSquareData)
@@ -723,25 +729,26 @@ export {
   plAngleDown, plAngleLeft, plList, plOrderList, plNumberList, plListSquare, plListView,
   plSettingAlt, plContent, plAlignCenter, plAlignRight, plAlignLeft, plAt, plText,
   plNumber, plSelect, plUnderline, plSource, plStrike, plBold, plItalic, plFont,
-  plFontColor, plHeader1, plHeader2, plHeader3, plQuote, plLink, plAttachment, plUnlink,
-  plMinimize, plFull, plFullScreen, plUploads, plDownload, plCloudUp, plMoveIn, plMoveOut,
-  plBranch, plType, plMerge, plCommit, plTag, plFork, plVersion, plPriority, plModule,
-  plStatus, plDependence, plSearch, plSortDesc, plFilter, plCopy, plEdit, plPencil,
-  plPicker, plTrash, plSave, plImport, plSetting, plShare, plCooperate, plUndo, plRepair,
-  plScroll, plDrag, plExpand, plUpdateLog, plPartake, plStar, plExit, plPosition,
-  plMenuCollapse, plDirCollapse, plDashboard, plView, plGantt, plSubtask, plOverview,
-  plTable, plTableComponent, plModel, plPage, plWeb, plReturn, plWebhook, plWorkspace,
-  plShowModel, plAll, plSigma, plRepository, plRepo, plDomain, plLocalization, plLangEn,
-  plLangZh, plDraft, plComment, plChat, plChatCircle, plReaded, plReadedSquare, plTicket,
-  plTrade, plImage, plCover, plMemo, plCertificate, plKey, plLock, plCalendar, plClock,
-  plClockRing, plCreateTime, plDeadline, plStartTime, plUpdateTime, plSpeaker, plBell,
-  plBellSmall, plEye, plHide, plFace, plPrivacy, plMiniProgram, plAndroid, plIOS, plPHP,
-  plCocos, plRobot, plRevert, plBackup, plBack, plAccess, plBuy, plQrcode, plOpen,
-  plIntegrated, plCustom, plCustomField, plDragMerge, plCase, plSoftware, plTemplate,
-  plOperation, plNail, plPrint, plEmailAdd, plEmail, plEmoji, plBrand, plBlankDoc,
-  plSharp, plThumbUp, plCommand, plSwitch, plProgress, plCurrency, plWhiteboard,
-  plArchitecture, plFlow, plIcon, plStatistic, plAssociate, plUpgrade, plSelectColor,
-  plGoal, plAI, plFocusText, plWrite, plSend, plSummarize, plChange, plTranslate,
+  plFontColor, plHeader1, plHeader2, plHeader3, plHeader4, plHeader5, plHeader6,
+  plQuote, plLink, plAttachment, plUnlink, plMinimize, plFull, plFullScreen, plUploads,
+  plDownload, plCloudUp, plMoveIn, plMoveOut, plBranch, plType, plMerge, plCommit, plTag,
+  plFork, plVersion, plPriority, plModule, plStatus, plDependence, plSearch, plSortDesc,
+  plFilter, plCopy, plEdit, plPencil, plPicker, plTrash, plSave, plImport, plSetting,
+  plShare, plCooperate, plUndo, plRepair, plScroll, plDrag, plExpand, plUpdateLog,
+  plPartake, plStar, plExit, plPosition, plMenuCollapse, plDirCollapse, plDashboard,
+  plView, plGantt, plSubtask, plOverview, plTable, plTableComponent, plModel, plPage,
+  plWeb, plReturn, plWebhook, plWorkspace, plShowModel, plAll, plSigma, plRepository,
+  plRepo, plDomain, plLocalization, plLangEn, plLangZh, plDraft, plComment, plChat,
+  plChatCircle, plReaded, plReadedSquare, plTicket, plTrade, plImage, plCover, plMemo,
+  plCertificate, plKey, plLock, plCalendar, plClock, plClockRing, plCreateTime,
+  plDeadline, plStartTime, plUpdateTime, plSpeaker, plBell, plBellSmall, plEye,
+  plHide, plFace, plPrivacy, plMiniProgram, plAndroid, plIOS, plPHP, plCocos, plRobot,
+  plRevert, plBackup, plBack, plAccess, plBuy, plQrcode, plOpen, plIntegrated, plCustom,
+  plCustomField, plDragMerge, plCase, plSoftware, plTemplate, plOperation, plNail,
+  plPrint, plEmailAdd, plEmail, plEmoji, plBrand, plBlankDoc, plSharp, plThumbUp,
+  plCommand, plSwitch, plProgress, plCurrency, plWhiteboard, plArchitecture, plFlow,
+  plIcon, plStatistic, plAssociate, plUpgrade, plSelectColor, plGoal, plAI, plFocusText,
+  plWrite, plSend, plSummarize, plChange, plTranslate,
 
   // colored icon
   pcPgyer, pcTracup, pcFrontJS, pcCodeFever, pcSeed,
